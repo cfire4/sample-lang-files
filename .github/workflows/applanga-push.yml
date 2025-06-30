@@ -28,11 +28,13 @@ jobs:
         if: '${{ inputs.push_targets != true }}'
         env:
           APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
+          APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
         run: applanga push --force
         working-directory: checkout
       - name: Push Translation Files to Applanga
         if: '${{ inputs.push_targets == true }}'
         env:
           APPLANGA_ACCESS_TOKEN: '${{ secrets.APPLANGA_ACCESS_TOKEN }}'
+          APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
         run: applanga pushtarget --force
         working-directory: checkout
