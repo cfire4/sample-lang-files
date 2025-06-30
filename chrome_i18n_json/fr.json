@@ -1,0 +1,14 @@
+{
+  "app_name": {
+    "message": "Mon extension Chrome",
+    "description": "The name of the extension."
+  },
+  "greeting": {
+    "message": "Bonjour, monde !",
+    "description": "A greeting message."
+  },
+  "button_label": {
+    "message": "Soumettre",
+    "description": "Label for a button."
+  }
+}

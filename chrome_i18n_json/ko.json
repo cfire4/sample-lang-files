@@ -1,0 +1,14 @@
+{
+  "app_name": {
+    "message": "내 Chrome 확장 프로그램",
+    "description": "The name of the extension."
+  },
+  "greeting": {
+    "message": "안녕하세요, 세상!",
+    "description": "A greeting message."
+  },
+  "button_label": {
+    "message": "제출",
+    "description": "Label for a button."
+  }
+}

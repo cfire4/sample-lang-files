@@ -1,0 +1,10 @@
+{
+  "translation": {
+    "title": "i18next에 오신 것을 환영합니다",
+    "description": {
+      "part1": "간단한 테스트입니다.",
+      "part2": "여기에는 중첩된 키가 포함됩니다."
+    },
+    "interpolation_example": "안녕하세요, {{name}}님!"
+  }
+}

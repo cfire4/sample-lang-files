@@ -1,0 +1,10 @@
+{
+  "translation": {
+    "title": "Willkommen bei i18next",
+    "description": {
+      "part1": "Dies ist ein einfacher Test.",
+      "part2": "Es enthält verschachtelte Schlüssel."
+    },
+    "interpolation_example": "Hallo, {{name}}!"
+  }
+}
