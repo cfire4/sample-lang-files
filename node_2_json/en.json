@@ -1,0 +1,9 @@
+{
+  "app": {
+    "name": "My Node.js App",
+    "greeting": "Hello from Node.js!"
+  },
+  "messages": {
+    "success": "Operation successful."
+  }
+}

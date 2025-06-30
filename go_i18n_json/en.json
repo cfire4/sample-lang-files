@@ -1,0 +1,5 @@
+{
+  "greeting": "Hello, World!",
+  "welcome_user": "Welcome, {{.Name}}!",
+  "plural_example": "{Count, plural, one {You have one item.} other {You have {{.Count}} items.}}"
+}

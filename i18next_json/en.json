@@ -1,0 +1,10 @@
+{
+  "translation": {
+    "title": "Welcome to i18next",
+    "description": {
+      "part1": "This is a simple test.",
+      "part2": "It includes nested keys."
+    },
+    "interpolation_example": "Hello, {{name}}!"
+  }
+}

@@ -1,0 +1,8 @@
+/* App name */
+"APP_NAME" = "My iOS App";
+
+/* Welcome message */
+"WELCOME_MESSAGE" = "Welcome back!";
+
+/* Button title */
+"BUTTON_TITLE_OK" = "OK";

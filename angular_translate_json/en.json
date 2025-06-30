@@ -1,0 +1,5 @@
+{
+  "TITLE": "Hello Angular Translate",
+  "GREETING": "Welcome, {{name}}!",
+  "DESCRIPTION": "This is a sample for Angular Translate."
+}
