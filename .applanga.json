@@ -1,0 +1,55 @@
+{
+  "app": {
+    "base_language": "en",
+    "push": {
+      "source": [
+        {
+          "path": "./flutter_arb/app_en.arb",
+          "file_format": "arb",
+          "tag": "flutter-arb",
+          "language": "en"
+        },
+        {
+          "path": "./chrome_i18n_json/en.json",
+          "file_format": "chrome_i18n_json",
+          "tag": "chrome-i18n",
+          "language": "en"
+        },
+        {
+          "path": "./i18next_json/en.json",
+          "file_format": "i18next_json",
+          "tag": "i18next",
+          "language": "en"
+        }
+      ]
+    },
+    "pull": {
+      "target": [
+        {
+          "path": "./flutter_arb/<language>.arb",
+          "file_format": "arb",
+          "tag": "flutter-arb",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./chrome_i18n_json/<language>.json",
+          "file_format": "chrome_i18n_json",
+          "tag": "chrome-i18n",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./i18next_json/<language>.json",
+          "file_format": "i18next_json",
+          "tag": "i18next",
+          "exclude_languages": [
+            "en"
+          ]
+        }
+      ]
+    }
+  }
+}
