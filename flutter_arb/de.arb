@@ -1,0 +1,20 @@
+{
+  "@@locale": "de",
+  "appTitle": "Meine Flatter-App",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "helloWorld": "Hallo Welt",
+  "@helloWorld": {
+    "description": "Simple hello world message"
+  },
+  "welcomeMessage": "Willkommen, {userName}!",
+  "@welcomeMessage": {
+    "placeholders": {
+      "userName": {
+        "type": "String",
+        "example": "John Doe"
+      }
+    }
+  }
+}
