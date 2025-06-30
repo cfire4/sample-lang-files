@@ -1,0 +1,10 @@
+{
+  "translation": {
+    "title": "Velkommen til i18next",
+    "description": {
+      "part1": "Det er en simpel test.",
+      "part2": "Den indeholder indlejrede nøgler."
+    },
+    "interpolation_example": "Hej, {{name}}!"
+  }
+}
