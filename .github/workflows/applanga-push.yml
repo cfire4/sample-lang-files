@@ -1,0 +1,38 @@
+name: Push Source Files to Applanga
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - flutter_arb/app_en.arb
+      - chrome_i18n_json/en.json
+      - i18next_json/en.json
+  workflow_dispatch:
+    inputs:
+      push_targets:
+        type: boolean
+        description: Push translation files. If set translation files will be pushed instead of source files
+        default: false
+        required: false
+jobs:
+  push-sources-for-translation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          path: checkout
+      - uses: applanga/setup-applanga-cli@v1.0.3
+        with:
+          version: 1.0.*
+      - name: Push Sources to Applanga
+        if: '${{ inputs.push_targets != true }}'
+        env:
+          APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
+        run: applanga push --force
+        working-directory: checkout
+      - name: Push Translation Files to Applanga
+        if: '${{ inputs.push_targets == true }}'
+        env:
+          APPLANGA_ACCESS_TOKEN: '${{ secrets.APPLANGA_ACCESS_TOKEN }}'
+        run: applanga pushtarget --force
+        working-directory: checkout
