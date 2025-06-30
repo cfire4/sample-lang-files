@@ -1,0 +1,20 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Mon application Flutter",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "helloWorld": "Bonjour monde",
+  "@helloWorld": {
+    "description": "Simple hello world message"
+  },
+  "welcomeMessage": "Bienvenue, {userName} !",
+  "@welcomeMessage": {
+    "placeholders": {
+      "userName": {
+        "type": "String",
+        "example": "John Doe"
+      }
+    }
+  }
+}
