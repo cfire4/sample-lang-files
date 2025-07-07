@@ -10,6 +10,17 @@
           "language": "en"
         },
         {
+          "path": "./csv/data.csv",
+          "file_format": "csv",
+          "tag": "app:language.csv",
+          "columnDescription": {
+            "KEY": 0,
+            "en": 1
+          },
+          "excludeHeaderRow": true,
+          "language": "en"
+        },
+        {
           "path": "./chrome_i18n_json/en.json",
           "file_format": "chrome_i18n_json",
           "tag": "chrome-i18n",
@@ -29,6 +40,20 @@
           "path": "./flutter_arb/<language>.arb",
           "file_format": "arb",
           "tag": "flutter-arb",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./csv/<language>.csv",
+          "file_format": "csv",
+          "tag": "app:language.csv",
+          "excludeHeaderRow": true,
+          "excludeBaseLang": true,
+          "columnDescription": {
+            "KEY": 0,
+            "<language>": 1
+          },
           "exclude_languages": [
             "en"
           ]
