@@ -8,7 +8,7 @@ on:
       - csv/data.csv
       - chrome_i18n_json/en.json
       - i18next_json/en.json
-      - android_xml/strings.xml
+      - angular_translate_json/en.json
   workflow_dispatch:
     inputs:
       push_targets:
