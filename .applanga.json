@@ -18,10 +18,10 @@
             "en": 1,
             "description": 2,
             "length": 55,
-            "DESCRIPTION": 98,
-            "LENGTH": 89
+            "DESCRIPTION": 33,
+            "LENGTH": 2
           },
-          "excludeHeaderRow": true,
+          "excludeHeaderRow": false,
           "language": "en"
         },
         {
@@ -37,9 +37,9 @@
           "language": "en"
         },
         {
-          "path": "./android_xml/strings.xml",
-          "file_format": "android",
-          "tag": "android-xml",
+          "path": "./angular_translate_json/en.json",
+          "file_format": "angular_translate_json",
+          "tag": "angular-trans",
           "language": "en"
         }
       ]
@@ -58,15 +58,15 @@
           "path": "./csv/<language>.csv",
           "file_format": "csv",
           "tag": "custom-csv",
-          "excludeHeaderRow": true,
+          "excludeHeaderRow": false,
           "excludeBaseLang": true,
           "columnDescription": {
             "KEY": 0,
             "<language>": 1,
             "description": 2,
             "length": 55,
-            "DESCRIPTION": 98,
-            "LENGTH": 89
+            "DESCRIPTION": 33,
+            "LENGTH": 2
           },
           "exclude_languages": [
             "en"
@@ -89,9 +89,9 @@
           ]
         },
         {
-          "path": "./android_xml/<language>.xml",
-          "file_format": "android",
-          "tag": "android-xml",
+          "path": "./angular_translate_json/<language>.json",
+          "file_format": "angular_translate_json",
+          "tag": "angular-trans",
           "exclude_languages": [
             "en"
           ]
