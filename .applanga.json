@@ -16,7 +16,8 @@
           "columnDescription": {
             "KEY": 0,
             "en": 1,
-            "description": 2
+            "description": 2,
+            "length": 3
           },
           "excludeHeaderRow": true,
           "language": "en"
@@ -54,7 +55,8 @@
           "columnDescription": {
             "KEY": 0,
             "<language>": 1,
-            "description": 2
+            "description": 2,
+            "length": 3
           },
           "exclude_languages": [
             "en"
