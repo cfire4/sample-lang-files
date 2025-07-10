@@ -15,7 +15,8 @@
           "tag": "app:language.csv",
           "columnDescription": {
             "KEY": 0,
-            "en": 1
+            "en": 1,
+            "description": 2
           },
           "excludeHeaderRow": true,
           "language": "en"
@@ -52,7 +53,8 @@
           "excludeBaseLang": true,
           "columnDescription": {
             "KEY": 0,
-            "<language>": 1
+            "<language>": 1,
+            "description": 2
           },
           "exclude_languages": [
             "en"
