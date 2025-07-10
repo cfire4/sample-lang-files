@@ -12,12 +12,12 @@
         {
           "path": "./csv/data.csv",
           "file_format": "csv",
-          "tag": "csv",
+          "tag": "custom-csv",
           "columnDescription": {
             "KEY": 0,
             "en": 1,
             "description": 2,
-            "length": 5
+            "length": 55
           },
           "excludeHeaderRow": true,
           "language": "en"
@@ -49,14 +49,14 @@
         {
           "path": "./csv/<language>.csv",
           "file_format": "csv",
-          "tag": "csv",
+          "tag": "custom-csv",
           "excludeHeaderRow": true,
           "excludeBaseLang": true,
           "columnDescription": {
             "KEY": 0,
             "<language>": 1,
             "description": 2,
-            "length": 5
+            "length": 55
           },
           "exclude_languages": [
             "en"
