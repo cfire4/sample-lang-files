@@ -9,6 +9,7 @@ on:
       - chrome_i18n_json/en.json
       - i18next_json/en.json
       - angular_translate_json/en.json
+      - xliff/second.xliff
   workflow_dispatch:
     inputs:
       push_targets:
