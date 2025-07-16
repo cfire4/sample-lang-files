@@ -47,7 +47,12 @@
           "file_format": "xliff",
           "tag": "my-xliffff",
           "key_prefix": "awesome",
-          "language": "en"
+          "language": "en",
+          "sort_by_key": true,
+          "remove_cr_char": true,
+          "includeStatus": true,
+          "importStatus": true,
+          "export_empty": false
         }
       ]
     },
@@ -110,7 +115,12 @@
           "key_prefix": "awesome",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "sort_by_key": true,
+          "remove_cr_char": true,
+          "includeStatus": true,
+          "importStatus": true,
+          "export_empty": false
         }
       ]
     }
