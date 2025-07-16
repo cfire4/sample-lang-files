@@ -41,6 +41,13 @@
           "file_format": "angular_translate_json",
           "tag": "angular-trans",
           "language": "en"
+        },
+        {
+          "path": "./xliff/second.xliff",
+          "file_format": "xliff",
+          "tag": "my-xliffff",
+          "key_prefix": "awesome",
+          "language": "en"
         }
       ]
     },
@@ -92,6 +99,15 @@
           "path": "./angular_translate_json/<language>.json",
           "file_format": "angular_translate_json",
           "tag": "angular-trans",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./xliff/<language>.xliff",
+          "file_format": "xliff",
+          "tag": "my-xliffff",
+          "key_prefix": "awesome",
           "exclude_languages": [
             "en"
           ]
