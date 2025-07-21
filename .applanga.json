@@ -7,7 +7,9 @@
           "path": "./flutter_arb/app_en.arb",
           "file_format": "arb",
           "tag": "flutter-arb",
-          "language": "en"
+          "language": "en",
+          "keepTagIds": false,
+          "sort_by_key": false
         },
         {
           "path": "./csv/data.csv",
@@ -64,7 +66,9 @@
           "tag": "flutter-arb",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "keepTagIds": false,
+          "sort_by_key": false
         },
         {
           "path": "./flutter_arb/<language>.arb",
