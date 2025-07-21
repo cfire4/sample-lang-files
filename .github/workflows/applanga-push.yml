@@ -9,6 +9,7 @@ on:
       - chrome_i18n_json/en.json
       - i18next_json/en.json
       - angular_translate_json/en.json
+      - xliff/deep/nested/file/path/long/test/first.xliff
       - xliff/second.xliff
   workflow_dispatch:
     inputs:
