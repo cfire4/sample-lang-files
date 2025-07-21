@@ -45,9 +45,16 @@
           "language": "en"
         },
         {
+          "path": "./xliff/deep/nested/file/path/long/test/first.xliff",
+          "file_format": "xliff",
+          "tag": "app:Localizable.strings",
+          "key_prefix": "deep-xliff",
+          "language": "en"
+        },
+        {
           "path": "./xliff/second.xliff",
           "file_format": "xliff",
-          "tag": "my-xliffff",
+          "tag": "my-xlifff",
           "key_prefix": "awesome",
           "language": "en",
           "sort_by_key": true,
@@ -103,9 +110,18 @@
           ]
         },
         {
+          "path": "./xliff/deep/nested/file/path/long/test/<language>.xliff",
+          "file_format": "xliff",
+          "tag": "app:Localizable.strings",
+          "key_prefix": "deep-xliff",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
           "path": "./xliff/<language>.xliff",
           "file_format": "xliff",
-          "tag": "my-xliffff",
+          "tag": "my-xlifff",
           "key_prefix": "awesome",
           "exclude_languages": [
             "en"
