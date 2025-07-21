@@ -6,7 +6,7 @@
         {
           "path": "./flutter_arb/app_en.arb",
           "file_format": "arb",
-          "tag": "flutter-arb",
+          "tag": "custom-csv",
           "language": "en"
         },
         {
@@ -61,7 +61,7 @@
         {
           "path": "./flutter_arb/<language>.arb",
           "file_format": "arb",
-          "tag": "flutter-arb",
+          "tag": "custom-csv",
           "exclude_languages": [
             "en"
           ]
