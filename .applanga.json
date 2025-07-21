@@ -6,7 +6,7 @@
         {
           "path": "./flutter_arb/app_en.arb",
           "file_format": "arb",
-          "tag": "custom-csv",
+          "tag": "flutter-arb",
           "language": "en"
         },
         {
@@ -61,25 +61,15 @@
         {
           "path": "./flutter_arb/<language>.arb",
           "file_format": "arb",
-          "tag": "custom-csv",
+          "tag": "flutter-arb",
           "exclude_languages": [
             "en"
           ]
         },
         {
-          "path": "./csv/<language>.csv",
-          "file_format": "csv",
+          "path": "./flutter_arb/<language>.arb",
+          "file_format": "arb",
           "tag": "custom-csv",
-          "excludeHeaderRow": false,
-          "excludeBaseLang": true,
-          "columnDescription": {
-            "KEY": 0,
-            "<language>": 1,
-            "description": 2,
-            "length": 55,
-            "DESCRIPTION": 33,
-            "LENGTH": 2
-          },
           "exclude_languages": [
             "en"
           ]
