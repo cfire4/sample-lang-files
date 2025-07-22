@@ -7,9 +7,7 @@
           "path": "./flutter_arb/app_en.arb",
           "file_format": "arb",
           "tag": "flutter-arb",
-          "language": "en",
-          "keepTagIds": false,
-          "sort_by_key": false
+          "language": "en"
         },
         {
           "path": "./csv/data.csv",
@@ -46,20 +44,13 @@
           "path": "./xliff/deep/nested/file/path/long/test/first.xliff",
           "file_format": "xliff",
           "tag": "app:Localizable.strings",
-          "key_prefix": "deep-xliff",
           "language": "en"
         },
         {
           "path": "./xliff/second.xliff",
           "file_format": "xliff",
           "tag": "my-xlifff",
-          "key_prefix": "awesome",
-          "language": "en",
-          "sort_by_key": true,
-          "remove_cr_char": true,
-          "includeStatus": true,
-          "importStatus": true,
-          "export_empty": false
+          "language": "en"
         }
       ]
     },
@@ -72,8 +63,6 @@
           "exclude_languages": [
             "en"
           ],
-          "keepTagIds": false,
-          "sort_by_key": false
         },
         {
           "path": "./flutter_arb/<language>.arb",
@@ -111,7 +100,6 @@
           "path": "./xliff/deep/nested/file/path/long/test/<language>.xliff",
           "file_format": "xliff",
           "tag": "app:Localizable.strings",
-          "key_prefix": "deep-xliff",
           "exclude_languages": [
             "en"
           ]
@@ -120,15 +108,9 @@
           "path": "./xliff/<language>.xliff",
           "file_format": "xliff",
           "tag": "my-xlifff",
-          "key_prefix": "awesome",
           "exclude_languages": [
             "en"
-          ],
-          "sort_by_key": true,
-          "remove_cr_char": true,
-          "includeStatus": true,
-          "importStatus": true,
-          "export_empty": false
+          ]
         }
       ]
     }
