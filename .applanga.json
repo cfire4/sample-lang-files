@@ -62,7 +62,7 @@
           "tag": "flutter-arb",
           "exclude_languages": [
             "en"
-          ],
+          ]
         },
         {
           "path": "./flutter_arb/<language>.arb",
