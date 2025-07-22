@@ -65,7 +65,7 @@
           ]
         },
         {
-          "path": "./flutter_arb/<language>.arb",
+          "path": "./csv/<language>.csv",
           "file_format": "arb",
           "tag": "custom-csv",
           "exclude_languages": [
