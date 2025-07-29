@@ -17,7 +17,8 @@
             "KEY": 0,
             "en": 1,
             "DESCRIPTION": 33,
-            "LENGTH": 2
+            "LENGTH": 2,
+            "METADATA_test": "3"
           },
           "excludeHeaderRow": false,
           "language": "en"
@@ -70,7 +71,18 @@
           "tag": "custom-csv",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "sort_by_key": true,
+          "export_empty": true,
+          "columnDescription": {
+            "KEY": 0,
+            "en": 1,
+            "DESCRIPTION": 33,
+            "LENGTH": 2,
+            "METADATA_test": "3"
+          },
+          "ignore_duplicates": true,
+          "includeStatus": true
         },
         {
           "path": "./chrome_i18n_json/<language>.json",
