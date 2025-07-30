@@ -12,15 +12,17 @@
         {
           "path": "./csv/data.csv",
           "file_format": "csv",
-          "tag": "custom-csv",
+          "tag": "custom-csvretw",
           "columnDescription": {
             "KEY": 0,
             "en": 1,
             "DESCRIPTION": 33,
-            "LENGTH": 2
+            "LENGTH": 2,
+            "METADATA_test": "3"
           },
           "excludeHeaderRow": false,
-          "language": "en"
+          "language": "en",
+          "skipNonStringValues": false
         },
         {
           "path": "./chrome_i18n_json/en.json",
@@ -74,13 +76,20 @@
         {
           "path": "./csv/<language>.csv",
           "file_format": "arb",
-          "tag": "custom-csv",
+          "tag": "custom-csvretw",
           "exclude_languages": [
             "en"
           ],
           "sort_by_key": true,
           "ignore_duplicates": true,
-          "export_empty": true
+          "export_empty": true,
+          "columnDescription": {
+            "KEY": 0,
+            "en": 1,
+            "DESCRIPTION": 33,
+            "LENGTH": 2,
+            "METADATA_test": "3"
+          }
         },
         {
           "path": "./chrome_i18n_json/<language>.json",
