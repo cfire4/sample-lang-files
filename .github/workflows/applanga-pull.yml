@@ -1,5 +1,23 @@
 name: Pull Target Files from Applanga
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: Pre-formatted --tag options for pulled entries (e.g. --tag login --tag error)
+        required: false
+        default: ''
+      pr_title:
+        description: Title for the pull request
+        required: false
+        default: Updated translations
+      commit_message:
+        description: Commit message for the PR
+        required: false
+        default: Updated translations
+      target_branch:
+        description: Target branch for the pull request
+        required: false
+        default: ''
 jobs:
   pull-translation-in:
     runs-on: ubuntu-latest
@@ -14,14 +32,16 @@ jobs:
       - name: Pull translations from Applanga
         env:
           APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
-        run: applanga pull
+          APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
+        run: 'applanga pull ${{ github.event.inputs.tags }}'
         working-directory: checkout
       - name: Create Pull Request
         uses: applanga/pe-create-pull-request@main
         with:
           branch: newTranslations
+          base: ${{ github.event.inputs.target_branch || github.event.repository.default_branch }}
           author: 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'
-          commit-message: Updated translations
-          title: Updated translations
+          commit-message: ${{ github.event.inputs.commit_message }}
+          title: ${{ github.event.inputs.pr_title }}
           body: Pulled in new translations from Applanga portal
           path: checkout
