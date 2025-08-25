@@ -4,14 +4,7 @@ on:
     branches:
       - main
     paths:
-      - flutter_arb/app_en.arb
-      - csv/data.csv
-      - chrome_i18n_json/en.json
-      - i18next_json/en.json
-      - angular_translate_json/en.json
-      - xliff/deep/nested/file/path/long/test/first.xliff
-      - xliff/second.xliff
-      - android_xml/strings.xml
+      - excel/en.xlsx
   workflow_dispatch:
     inputs:
       push_targets:
@@ -33,6 +26,7 @@ jobs:
         if: '${{ inputs.push_targets != true }}'
         env:
           APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
+          APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
         run: applanga push --force
         working-directory: checkout
       - name: Push Translation Files to Applanga
