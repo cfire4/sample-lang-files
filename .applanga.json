@@ -18,7 +18,7 @@
             "KEY": 0,
             "en": 1,
             "DESCRIPTION": 2,
-            "LENGTH": 3
+            "LENGTH": "3"
           },
           "excludeHeaderRow": true,
           "language": "en"
