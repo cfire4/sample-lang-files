@@ -4,6 +4,7 @@ on:
     branches:
       - main
     paths:
+      - chrome_i18n_json/en.json
       - excel/en.xlsx
   workflow_dispatch:
     inputs:
