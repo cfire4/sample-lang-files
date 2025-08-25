@@ -4,61 +4,14 @@
     "push": {
       "source": [
         {
-          "path": "./flutter_arb/app_en.arb",
-          "file_format": "arb",
-          "tag": "flutter-arb",
-          "language": "en"
-        },
-        {
-          "path": "./csv/data.csv",
-          "file_format": "csv",
-          "tag": "custom-csvretw",
+          "path": "./excel/en.xlsx",
+          "file_format": "xls",
+          "tag": "app:language.xls",
           "columnDescription": {
             "KEY": 0,
-            "en": 1,
-            "DESCRIPTION": 33,
-            "LENGTH": 2,
-            "METADATA_test": "3"
+            "en": 1
           },
-          "excludeHeaderRow": false,
-          "language": "en",
-          "skipNonStringValues": false
-        },
-        {
-          "path": "./chrome_i18n_json/en.json",
-          "file_format": "chrome_i18n_json",
-          "tag": "chrome-i18n",
-          "language": "en"
-        },
-        {
-          "path": "./i18next_json/en.json",
-          "file_format": "i18next_json",
-          "tag": "i18next",
-          "language": "en"
-        },
-        {
-          "path": "./angular_translate_json/en.json",
-          "file_format": "angular_translate_json",
-          "tag": "angular-trans",
-          "language": "en"
-        },
-        {
-          "path": "./xliff/deep/nested/file/path/long/test/first.xliff",
-          "file_format": "xliff",
-          "tag": "app:Localizable.strings",
-          "language": "en"
-        },
-        {
-          "path": "./xliff/second.xliff",
-          "file_format": "xliff",
-          "tag": "my-xlifff",
-          "language": "en"
-        },
-        {
-          "path": "./android_xml/strings.xml",
-          "file_format": "android_xml",
-          "tag": "app:strings.xml",
-          "skipNonStringValues": false,
+          "excludeHeaderRow": true,
           "language": "en"
         }
       ]
@@ -66,76 +19,15 @@
     "pull": {
       "target": [
         {
-          "path": "./flutter_arb/<language>.arb",
-          "file_format": "arb",
-          "tag": "flutter-arb",
-          "exclude_languages": [
-            "en"
-          ]
-        },
-        {
-          "path": "./csv/<language>.csv",
-          "file_format": "arb",
-          "tag": "custom-csvretw",
-          "exclude_languages": [
-            "en"
-          ],
-          "sort_by_key": true,
-          "ignore_duplicates": true,
-          "export_empty": true,
+          "path": "./excel/<language>.xlsx",
+          "file_format": "xls",
+          "tag": "app:language.xls",
+          "excludeHeaderRow": true,
+          "excludeBaseLang": true,
           "columnDescription": {
             "KEY": 0,
-            "en": 1,
-            "DESCRIPTION": 33,
-            "LENGTH": 2,
-            "METADATA_test": "3"
-          }
-        },
-        {
-          "path": "./chrome_i18n_json/<language>.json",
-          "file_format": "chrome_i18n_json",
-          "tag": "chrome-i18n",
-          "exclude_languages": [
-            "en"
-          ]
-        },
-        {
-          "path": "./i18next_json/<language>.json",
-          "file_format": "i18next_json",
-          "tag": "i18next",
-          "exclude_languages": [
-            "en"
-          ]
-        },
-        {
-          "path": "./angular_translate_json/<language>.json",
-          "file_format": "angular_translate_json",
-          "tag": "angular-trans",
-          "exclude_languages": [
-            "en"
-          ]
-        },
-        {
-          "path": "./xliff/deep/nested/file/path/long/test/<language>.xliff",
-          "file_format": "xliff",
-          "tag": "app:Localizable.strings",
-          "exclude_languages": [
-            "en"
-          ]
-        },
-        {
-          "path": "./xliff/<language>.xliff",
-          "file_format": "xliff",
-          "tag": "my-xlifff",
-          "exclude_languages": [
-            "en"
-          ]
-        },
-        {
-          "path": "./android_xml/<language>.xml",
-          "file_format": "android_xml",
-          "tag": "app:strings.xml",
-          "ignore_duplicates": false,
+            "<language>": 1
+          },
           "exclude_languages": [
             "en"
           ]
