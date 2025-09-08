@@ -15,8 +15,6 @@
           "file_format": "xls",
           "tag": "app:language.xls",
           "columnDescription": {
-            "KEY": 0,
-            "en": 1,
             "DESCRIPTION": 2,
             "LENGTH": "3"
           },
@@ -41,12 +39,6 @@
           "tag": "app:language.xls",
           "excludeHeaderRow": true,
           "excludeBaseLang": true,
-          "columnDescription": {
-            "KEY": 0,
-            "DESCRIPTION": 2,
-            "LENGTH": 3,
-            "<language>": 1
-          },
           "exclude_languages": [
             "en"
           ]
