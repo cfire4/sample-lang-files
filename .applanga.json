@@ -4,6 +4,17 @@
     "push": {
       "source": [
         {
+          "path": "./csv/data.csv",
+          "file_format": "csv",
+          "tag": "app:language.csv",
+          "columnDescription": {
+            "KEY": 0,
+            "en": 1
+          },
+          "excludeHeaderRow": true,
+          "language": "en"
+        },
+        {
           "path": "./chrome_i18n_json/en.json",
           "file_format": "react_nested_json",
           "tag": "app:language.json",
@@ -16,7 +27,9 @@
           "tag": "app:language.xls",
           "columnDescription": {
             "DESCRIPTION": 2,
-            "LENGTH": "3"
+            "LENGTH": "3",
+            "KEY": 0,
+            "en": 1
           },
           "excludeHeaderRow": true,
           "language": "en"
@@ -25,6 +38,20 @@
     },
     "pull": {
       "target": [
+        {
+          "path": "./csv/<language>.csv",
+          "file_format": "csv",
+          "tag": "app:language.csv",
+          "excludeHeaderRow": true,
+          "excludeBaseLang": true,
+          "columnDescription": {
+            "KEY": 0,
+            "<language>": 1
+          },
+          "exclude_languages": [
+            "en"
+          ]
+        },
         {
           "path": "./chrome_i18n_json/<language>.json",
           "file_format": "react_nested_json",
@@ -41,7 +68,11 @@
           "excludeBaseLang": true,
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "columnDescription": {
+            "KEY": 0,
+            "<language>": 1
+          }
         }
       ]
     }
