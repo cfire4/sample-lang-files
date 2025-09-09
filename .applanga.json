@@ -46,7 +46,7 @@
           "excludeBaseLang": true,
           "columnDescription": {
             "KEY": 0,
-            "<language>": 1
+            "de": 1
           },
           "exclude_languages": [
             "en"
@@ -68,11 +68,7 @@
           "excludeBaseLang": true,
           "exclude_languages": [
             "en"
-          ],
-          "columnDescription": {
-            "KEY": 0,
-            "<language>": 1
-          }
+          ]
         }
       ]
     }
