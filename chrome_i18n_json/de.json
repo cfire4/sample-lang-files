@@ -1,14 +1,1 @@
-{
-  "app_name": {
-    "message": "Meine Chrome-Erweiterung",
-    "description": "The name of the extension."
-  },
-  "greeting": {
-    "message": "Hallo Welt!",
-    "description": "A greeting message."
-  },
-  "button_label": {
-    "message": "Senden",
-    "description": "Label for a button."
-  }
-}
+{}
