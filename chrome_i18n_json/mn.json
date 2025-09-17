@@ -1,1 +1,14 @@
-{}
+{
+  "app_name": {
+    "message": "Миний Chrome Өргөтгөл",
+    "description": "Өргөтгөлийн нэр."
+  },
+  "greeting": {
+    "message": "Сайн байна уу, дэлхий!",
+    "description": "Мэндчилгээний зурвас."
+  },
+  "button_label": {
+    "message": "Илгээх",
+    "description": "Товчлуурын шошго."
+  }
+}
