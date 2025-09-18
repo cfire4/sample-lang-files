@@ -21,6 +21,12 @@
           "language": "en"
         },
         {
+          "path": "./chrome_i18n_json/en.json",
+          "file_format": "chrome_i18n_json",
+          "tag": "app:messages.json",
+          "language": "en"
+        },
+        {
           "path": "./excel/en.xlsx",
           "file_format": "xls",
           "tag": "app:language:2135.xls",
@@ -53,6 +59,14 @@
           "path": "./i18next_json/<language>.json",
           "file_format": "i18next_json",
           "tag": "app:translations.json",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./chrome_i18n_json/<language>.json",
+          "file_format": "chrome_i18n_json",
+          "tag": "app:messages.json",
           "exclude_languages": [
             "en"
           ]
