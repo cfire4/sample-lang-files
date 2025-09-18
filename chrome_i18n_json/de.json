@@ -1,14 +1,14 @@
 {
   "app_name": {
     "message": "Meine Chrome-Erweiterung",
-    "description": "Der Name der Nebenstelle."
+    "description": "The name of the extension."
   },
   "greeting": {
     "message": "Hallo Welt!",
-    "description": "Eine Grußnachricht."
+    "description": "A greeting message."
   },
   "button_label": {
-    "message": "Übermitteln",
-    "description": "Etikett für eine Schaltfläche."
+    "message": "Senden!!!",
+    "description": "Label for a button."
   }
 }

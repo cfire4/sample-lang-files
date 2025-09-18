@@ -1,14 +1,14 @@
 {
   "app_name": {
     "message": "Min Chrome-udvidelse",
-    "description": "Navnet på udvidelsen."
+    "description": "The name of the extension."
   },
   "greeting": {
     "message": "Hej, verden!",
-    "description": "En hilsen."
+    "description": "A greeting message."
   },
   "button_label": {
     "message": "Indsend",
-    "description": "Mærkat for en knap."
+    "description": "Label for a button."
   }
 }
