@@ -40,7 +40,7 @@ jobs:
         run: 'applanga pull ${{ github.event.inputs.tags }}'
         working-directory: checkout
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request
+        uses: peter-evans/create-pull-request@latest
         with:
           branch: ${{ github.event.inputs.source_branch }}
           base: ${{ github.event.inputs.target_branch || github.event.repository.default_branch }}
