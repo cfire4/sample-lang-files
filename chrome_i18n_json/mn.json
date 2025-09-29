@@ -1,0 +1,14 @@
+{
+  "app_name": {
+    "message": "Миний Chrome Өргөтгөл",
+    "description": "The name of the extension."
+  },
+  "greeting": {
+    "message": "Сайн байна уу, дэлхий!‏‏‎‏‏‎‏‏‎‏‏",
+    "description": "A greeting message."
+  },
+  "button_label": {
+    "message": "Илгээх",
+    "description": "Label for a button."
+  }
+}
