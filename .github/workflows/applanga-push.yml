@@ -58,7 +58,7 @@ jobs:
       - name: Notify workflow success
         if: success()
         run: |-
-          curl -X POST "${{ secrets.APPLANGA_API_HOST }}v1/api/workflow-complete?app=${{ github.event.inputs.mobileAppId }}" \
+          curl -X POST "https://afraid-flies-happen.loca.lt/v1/api/workflow-complete?app=${{ github.event.inputs.mobileAppId }}" \
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer ${{ secrets.APPLANGA_ACCESS_TOKEN }}" \
             -d '{
