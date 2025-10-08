@@ -22,13 +22,30 @@ on:
         description: Source branch for the pull request
         required: false
         default: newTranslations
+      mobileAppId:
+        description: Mobile App ID
+        required: true
+        type: string
+      branchId:
+        description: Branch ID
+        required: false
+        type: string
 jobs:
   pull-translation-in:
     runs-on: ubuntu-latest
     steps:
+      - name: Notify workflow started
+        run: |-
+          curl -X POST "${{ secrets.APPLANGA_API_HOST }}/v1/api/workflow-start?app=${{ github.event.inputs.mobileAppId }}" \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer ${{ secrets.APPLANGA_ACCESS_TOKEN }}" \
+            -d '{
+              "branchId": "${{ github.event.inputs.branchId }}",
+              "workflowType": "pull"
+           }' || echo "Failed to notify workflow start, continuing anyway"
       - uses: actions/checkout@v3
         with:
-          ref: ${{ github.head_ref }}
+          ref: ${{ github.event.inputs.target_branch || github.ref_name }}
           path: checkout
       - uses: applanga/setup-applanga-cli@v1.0.3
         with:
@@ -49,3 +66,25 @@ jobs:
           title: ${{ github.event.inputs.pr_title }}
           body: Pulled in new translations from Applanga portal
           path: checkout
+      - name: Notify workflow success
+        if: success()
+        run: |-
+          curl -X POST "${{ secrets.APPLANGA_API_HOST }}/v1/api/workflow-complete?app=${{ github.event.inputs.mobileAppId }}" \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer ${{ secrets.APPLANGA_ACCESS_TOKEN }}" \
+            -d '{
+              "branchId": "${{ github.event.inputs.branchId }}",
+              "workflowType": "pull",
+              "status": "success"
+            }' || echo "Failed to notify workflow success"
+      - name: Notify workflow failure
+        if: failure()
+        run: |-
+          curl -X POST "${{ secrets.APPLANGA_API_HOST }}/v1/api/workflow-complete?app=${{ github.event.inputs.mobileAppId }}" \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer ${{ secrets.APPLANGA_ACCESS_TOKEN }}" \
+            -d '{
+              "branchId": "${{ github.event.inputs.branchId }}",
+              "workflowType": "pull",
+              "status": "failed"
+            }' || echo "Failed to notify workflow failure"
