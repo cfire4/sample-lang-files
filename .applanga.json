@@ -6,7 +6,7 @@
         {
           "path": "./csv/data.csv",
           "file_format": "csv",
-          "tag": "app:language:4531.csv",
+          "tag": "app:language.csv",
           "columnDescription": {
             "KEY": 0,
             "en": 1
@@ -44,7 +44,7 @@
         {
           "path": "./csv/<language>.csv",
           "file_format": "csv",
-          "tag": "app:language:4531.csv",
+          "tag": "app:language.csv",
           "excludeHeaderRow": true,
           "excludeBaseLang": true,
           "columnDescription": {
