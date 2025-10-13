@@ -15,10 +15,27 @@ on:
         description: Push translation files. If set translation files will be pushed instead of source files
         default: false
         required: false
+      mobileAppId:
+        description: Mobile App ID
+        required: true
+        type: string
+      branchId:
+        description: Branch ID
+        required: false
+        type: string
 jobs:
   push-sources-for-translation:
     runs-on: ubuntu-latest
     steps:
+      - name: Notify workflow started
+        run: |-
+          curl -X POST "${{ secrets.APPLANGA_API_HOST }}/v1/api/workflow-start?app=${{ github.event.inputs.mobileAppId }}" \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer ${{ secrets.APPLANGA_ACCESS_TOKEN }}" \
+            -d '{
+             "branchId": "${{ github.event.inputs.branchId }}",
+            "workflowType": "push"
+            }' || echo "Failed to notify workflow start, continuing anyway"
       - uses: actions/checkout@v3
         with:
           path: checkout
@@ -38,3 +55,25 @@ jobs:
           APPLANGA_ACCESS_TOKEN: '${{ secrets.APPLANGA_ACCESS_TOKEN }}'
         run: applanga pushtarget --force
         working-directory: checkout
+      - name: Notify workflow success
+        if: success()
+        run: |-
+          curl -X POST "${{ secrets.APPLANGA_API_HOST }}/v1/api/workflow-complete?app=${{ github.event.inputs.mobileAppId }}" \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer ${{ secrets.APPLANGA_ACCESS_TOKEN }}" \
+            -d '{
+            "branchId": "${{ github.event.inputs.branchId }}",
+            "workflowType": "push",
+              "status": "success"
+            }' || echo "Failed to notify workflow success"
+      - name: Notify workflow failure
+        if: failure()
+        run: |-
+          curl -X POST "${{ secrets.APPLANGA_API_HOST }}/v1/api/workflow-complete?app=${{ github.event.inputs.mobileAppId }}" \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer ${{ secrets.APPLANGA_ACCESS_TOKEN }}" \
+            -d '{
+            "branchId": "${{ github.event.inputs.branchId }}",
+            "workflowType": "push",
+              "status": "failed"
+            }' || echo "Failed to notify workflow failure"
