@@ -30,16 +30,36 @@ jobs:
   pull-translation-in:
     runs-on: ubuntu-latest
     steps:
-      - name: Extract Mobile App ID from Access Token
-        id: extract-app-id
-        run: 'echo "MOBILE_APP_ID=$(echo "${{ secrets.APPLANGA_ACCESS_TOKEN }}" | cut -d''!'' -f1)" >> $GITHUB_OUTPUT'
+      - name: Prepare Applanga API Configuration
+        id: api_config
+        env:
+          ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
+          BRANCH_ID_INPUT: '${{ github.event.inputs.branch_id }}'
+          APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
+        run: |-
+          # Set API host from secret or use fallback, then remove any trailing slash
+          RAW_HOST="${APPLANGA_API_HOST:-https://api.applanga.com}"
+          CLEANED_HOST="${RAW_HOST%/}"
+
+          # Extract mobile app ID from access token
+          MOBILE_APP_ID=$(echo "$ACCESS_TOKEN" | cut -d'!' -f1)
+
+          # Prepare branch ID parameter string if an ID is provided
+          BRANCH_PARAM=""
+          if [ -n "$BRANCH_ID_INPUT" ]; then
+          BRANCH_PARAM="&branch=$BRANCH_ID_INPUT"
+          fi
+
+          # Set all values as outputs for upcoming steps
+          echo "mobile_app_id=${MOBILE_APP_ID}" >> $GITHUB_OUTPUT
+          echo "branch_param=${BRANCH_PARAM}" >> $GITHUB_OUTPUT
+          echo "api_host=${CLEANED_HOST}" >> $GITHUB_OUTPUT
       - name: Notify workflow started
         run: |-
-          curl -X POST "${{ secrets.APPLANGA_API_HOST }}/v1/api/workflow-start?app=${{ steps.extract-app-id.outputs.MOBILE_APP_ID }}" \
+          curl -X POST "${{ steps.api_config.outputs.api_host }}/v1/api/workflow-start?app=${{ steps.api_config.outputs.mobile_app_id }}${{ steps.api_config.outputs.branch_param }}" \
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer ${{ secrets.APPLANGA_ACCESS_TOKEN }}" \
             -d '{
-              "branchId": "${{ github.event.inputs.branch_id }}",
               "workflowType": "pull"
            }' || echo "Failed to notify workflow start, continuing anyway"
       - uses: actions/checkout@v3
@@ -51,8 +71,8 @@ jobs:
           version: 1.0.*
       - name: Pull translations from Applanga
         env:
-          APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
-          APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
+          APPLANGA_ACCESS_TOKEN: '${{ secrets.APPLANGA_ACCESS_TOKEN }}'
+          APPLANGA_API_HOST: '${{ steps.api_config.outputs.api_host }}'
         run: 'applanga pull ${{ github.event.inputs.tags }}'
         working-directory: checkout
       - name: Create Pull Request
@@ -68,22 +88,20 @@ jobs:
       - name: Notify workflow success
         if: success()
         run: |-
-          curl -X POST "${{ secrets.APPLANGA_API_HOST }}/v1/api/workflow-complete?app=${{ steps.extract-app-id.outputs.MOBILE_APP_ID }}" \
+          curl -X POST "${{ steps.api_config.outputs.api_host }}/v1/api/workflow-complete?app=${{ steps.api_config.outputs.mobile_app_id }}${{ steps.api_config.outputs.branch_param }}" \
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer ${{ secrets.APPLANGA_ACCESS_TOKEN }}" \
             -d '{
-              "branchId": "${{ github.event.inputs.branch_id }}",
               "workflowType": "pull",
               "status": "success"
             }' || echo "Failed to notify workflow success"
       - name: Notify workflow failure
         if: failure()
         run: |-
-          curl -X POST "${{ secrets.APPLANGA_API_HOST }}/v1/api/workflow-complete?app=${{ steps.extract-app-id.outputs.MOBILE_APP_ID }}" \
+          curl -X POST "${{ steps.api_config.outputs.api_host }}/v1/api/workflow-complete?app=${{ steps.api_config.outputs.mobile_app_id }}${{ steps.api_config.outputs.branch_param }}" \
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer ${{ secrets.APPLANGA_ACCESS_TOKEN }}" \
             -d '{
-              "branchId": "${{ github.event.inputs.branch_id }}",
               "workflowType": "pull",
               "status": "failed"
             }' || echo "Failed to notify workflow failure"
