@@ -5,9 +5,6 @@ on:
       - main
     paths:
       - csv/data.csv
-      - i18next_json/en.json
-      - chrome_i18n_json/en.json
-      - excel/en.xlsx
   workflow_dispatch:
     inputs:
       push_targets:
