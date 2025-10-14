@@ -13,29 +13,6 @@
           },
           "excludeHeaderRow": true,
           "language": "en"
-        },
-        {
-          "path": "./i18next_json/en.json",
-          "file_format": "i18next_json",
-          "tag": "app:translations.json",
-          "language": "en"
-        },
-        {
-          "path": "./chrome_i18n_json/en.json",
-          "file_format": "chrome_i18n_json",
-          "tag": "app:messages.json",
-          "language": "en"
-        },
-        {
-          "path": "./excel/en.xlsx",
-          "file_format": "xls",
-          "tag": "app:language:2135.xls",
-          "columnDescription": {
-            "KEY": 0,
-            "en": 1
-          },
-          "excludeHeaderRow": true,
-          "language": "en"
         }
       ]
     },
@@ -45,36 +22,6 @@
           "path": "./csv/<language>.csv",
           "file_format": "csv",
           "tag": "app:language.csv",
-          "excludeHeaderRow": true,
-          "excludeBaseLang": true,
-          "columnDescription": {
-            "KEY": 0,
-            "<language>": 1
-          },
-          "exclude_languages": [
-            "en"
-          ]
-        },
-        {
-          "path": "./i18next_json/<language>.json",
-          "file_format": "i18next_json",
-          "tag": "app:translations.json",
-          "exclude_languages": [
-            "en"
-          ]
-        },
-        {
-          "path": "./chrome_i18n_json/<language>.json",
-          "file_format": "chrome_i18n_json",
-          "tag": "app:messages.json",
-          "exclude_languages": [
-            "en"
-          ]
-        },
-        {
-          "path": "./excel/<language>.xlsx",
-          "file_format": "xls",
-          "tag": "app:language:2135.xls",
           "excludeHeaderRow": true,
           "excludeBaseLang": true,
           "columnDescription": {
