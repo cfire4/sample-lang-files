@@ -1,1 +1,1002 @@
-﻿
+﻿allBeds,Alle Betten
+accessible,Barrierefrei
+connectingRooms,Verbundene Zimmer
+adults %lld,%lld Erwachsene
+adultsKids %lld %lld,"%lld Erwachsene, %lld Kinder"
+%@ roomDetails,%@. Zimmerdetails
+dayRateUnitsLabelWithCurrency %@,für den Tag (%@)
+dayRateUnitsLabel,für den Tag
+concatenated %@ %@,%@ %@
+dayRateUnitsAccessibilityLabel,für den Tag
+"detailedListItem %@, %@ %@, %@","%@, %@ %@, %@"
+cancellationPolicy,Stornierungsbedingungen
+confidentialRate,Vertraulicher Tarif
+confidentialPrice,Vertraulicher Preis
+chooseOneOption,Wählen Sie nur 1 Option.
+chooseMoreOptions %lld,Wählen Sie bis zu %lld Optionen.
+%lld maximum,%lld maximal
+bookNowPayLater,"Jetzt buchen, später bezahlen"
+addPaymentMethod,Zahlungsmethode hinzufügen
+addingPaymentMethodDisclaimer,Das Hinzufügen dieser Zahlungsmethode wird nur für diese Buchung gespeichert.
+enterNameExactly,"Bitte geben Sie Ihren Namen genau so ein, wie er auf Ihrer Karte erscheint."
+add,Hinzufügen
+addEmailLabel,E-Mail hinzufügen
+addAddressLabel,Adresse hinzufügen
+addPhoneLabel,Telefonnummer hinzufügen
+emailTitleLabel,E-Mail
+addressTitleLabel,Adresse
+contactTitleLabel,Kontakt
+editGuestInformationTitle,Gastinformationen bearbeiten
+addGuestInformationTitle,Gastinformationen hinzufügen
+exitEditGuestInformation,Ansicht „Gastinformationen bearbeiten“ beenden
+exitAddGuestInformation,Ansicht „Gastinformationen hinzufügen“ beenden
+editGuestDisclaimer,"Diese Gastinformationen werden für diesen Aufenthalt verwendet, aber nicht in Ihrem Konto gespeichert."
+allFieldsRequired,"Alle Felder sind erforderlich, sofern nicht anders angegeben."
+communicationPreferencesPanelTitle,Kommunikationspräferenzen
+enrollAlertTitle,Hilton Honors Anmeldung
+enrollAlertMessage,"Es gab ein Problem bei der Erstellung Ihres Hilton Honors-Kontos. Ihre Reservierung ist in Ordnung, aber rufen Sie uns unter 1-800-4HONORS an, um Unterstützung bei Ihrem Hilton Honors-Konto zu erhalten."
+failedToSaveAddressTitle,Wir konnten Ihre Adresse nicht speichern.
+failedToSaveAddressMessage,Sie können Ihre Adresse jederzeit in Ihrem Hilton Honors-Profil aktualisieren.
+automatedDecisionsTitle,Automatisierte Entscheidungen treffen
+confirmPassword,Passwort bestätigen
+confirmPasswordMatches,Passwörter müssen übereinstimmen
+editEmailTitle,E-Mail bearbeiten
+addEmailTitle,E-Mail hinzufügen
+editEmailPrompt,Das Bearbeiten dieser E-Mail-Adresse wird nur für diese Buchung gespeichert.
+addEmailPrompt,Das Hinzufügen dieser E-Mail-Adresse wird nur für diese Buchung gespeichert.
+exitEditEmail,Ansicht „E-Mail bearbeiten“ beenden
+emailLabel,E-Mail
+emailPlaceholder,E-Mail
+emailTypeLabel,E-Mail-Adresse Typ
+editPhoneTitle,Telefonnummer bearbeiten
+addPhoneTitle,Telefonnummer hinzufügen
+editPhonePrompt,Das Bearbeiten dieser Telefonnummer wird nur für diese Buchung gespeichert.
+addPhonePrompt,Das Hinzufügen dieser Telefonnummer wird nur für diese Buchung gespeichert.
+exitEditPhone,Ansicht „Telefon bearbeiten“ beenden
+editAddressTitle,Adresse bearbeiten
+addAddressTitle,Adresse hinzufügen
+editAddressPrompt,Das Bearbeiten dieser Adresse wird nur für diese Buchung gespeichert.
+addAddressPrompt,Das Hinzufügen dieser Adresse wird nur für diese Buchung gespeichert.
+exitEditAddress,Ansicht „Adresse bearbeiten“ beenden
+addressTypeLabel,Adresstyp
+countryLabel,Land/Region
+countryErrorMessage,Es scheint ein technisches Problem aufgetreten zu sein. Bitte versuchen Sie es später erneut.
+addressLine1Label,Adresszeile 1
+addressLine1Placeholder,Adresszeile 1
+addressLine2Label,Adresszeile 2 (optional)
+addressLine2Placeholder,Adresszeile 2 (optional)
+cityLabel,Stadt
+cityPlaceholder,Stadt
+companyLabel,Unternehmen
+additionalGuestsTitle,Zusätzliche Gäste
+exitAdditionalGuests,Ansicht „Zusätzliche Gäste“ beenden
+additionalGuestLabel %lld,Zimmer %lld
+additionalGuestDisabledLabel,"Dieses Zimmer hat nur 1 Erwachsenen. Um mehr Gäste hinzuzufügen, müssen Sie Ihren Aufenthalt bearbeiten."
+additionalGuestInstructions,"Diese Reservierung ist auf Ihren Namen. Um einem weiteren Gast das Einchecken bei der Ankunft zu ermöglichen, fügen Sie unten seinen Namen hinzu."
+additionalGuestSummarySubtitle,Optional
+exitRequestsAndPreferencesView,Ansicht „Anfragen und Präferenzen“ beenden
+accessibleRoom,Barrierefreies Zimmer
+accessibility,Barrierefreiheit
+extrasTitle,Extras
+addOnsScreenTitle,Gestalten Sie Ihren Aufenthalt
+addOnsScreenDescription,Zusatzpreise inklusive Steuern.
+continueToBooking,Weiter zur Buchung
+addOnsErrorMessage,Ein Fehler ist aufgetreten
+availableAddOnsErrorMessage,Zurzeit können keine verfügbaren Add-Ons geladen werden
+costBreakdownErrorMessage,Zusammenfassung der Kosten konnte nicht geladen werden
+addOnsTryAgainMessage,Bitte versuchen Sie es später erneut oder fahren Sie mit der Buchung fort
+checkedLabel,eingescheckt
+cardPayment,Kartenzahlung
+bookNow,Jetzt buchen
+changeRoom,Zimmer wechseln
+additionalGuests,Zusätzliche Gäste
+billingAddress,Rechnungsadresse
+billingInformation,Rechnungsinformationen
+bookingFailed,"Entschuldigung, wir konnten Ihre Buchung nicht abschließen."
+emailConfirmation %@,Eine E-Mail mit Ihren Reservierungsdetails wurde an %@ gesendet.
+confirmation %@,Bestätigung #%@
+exploreHotelTitle,Entdecken Sie das Hotel
+exploreHotelDescription,"Sehen Sie sich den Hotelguide, den Gebäudegrundriss und die Hoteleinrichtungen an, um weitere Informationen zu Hotelveranstaltungsorten und Restaurants zu erhalten."
+checkInAndDKTitle,Checken Sie ein und fordern Sie einen digitalen Schlüssel an
+checkInAndDKDescription,"Wählen Sie Ihr Zimmer in der App aus, bevor Sie ankommen, und verwenden Sie Ihr Handy als Schlüssel, wenn Sie eingecheckt haben."
+exitBookingConfirmationView,Ansicht „Buchungsbestätigung“ beenden
+continueInEnglishButtonLabel,Weiter!
+exitRateDetailsView,Ansicht „Tarifdetails“ beenden
+exitNewPaymentMethodSelection,Ansicht „Zahlungsmethoden auswählen“ beenden
+exitNewPaymentMethod,Ansicht „Neue Zahlungsmethode“ beenden
+%@ cardEndingIn %@,%@ endet um %@
+%@ amTime,%@ Uhr
+%@ pmTime,%@ Uhr
+addNewPaymentMethodLabel,Eine andere Zahlungsmethode hinzufügen
+addFirstPaymentMethodLabel,Eine Zahlungsmethode hinzufügen
+cardNumberLabel,Kartennummer
+expirationDateLabel %@,Verfallsdatum (%@)
+expiredCardErrorLabel,Ihre Karte ist abgelaufen.
+existingCardErrorLabel,Diese Karte ist bereits gespeichert.
+exitPolicyDetailsView,Ansicht „Richtliniendetails“ beenden
+feeDescriptionDefaultTitle,Gebühren
+error,Fehler
+dismiss,Verwerfen
+continue,Weiter
+cancel,Abbrechen
+chooseNewRooms,Neue Zimmer auswählen
+dayUseAlertTitle,Nur für den Tag zu Besuch?
+dayUseAlertMessage,"Unsere Tagespreise sind ideal für Meetings und mehr, beinhalten jedoch keine Übernachtungen."
+dayUseAlertDetailsButtonLabel,Details anzeigen
+dayUseAlertContinueButtonLabel,Weiter
+availableRatesRateChangeDisclaimer,* Preisänderung während des Aufenthalts
+connectingRoomsInfoAlertTitle,Verbundene Zimmer?
+connectingRoomsInfoAlertMessage,"Nebeneinanderliegende Zimmer, die durch eine abschließbare Tür verbunden sind."
+connectingRoomLinkButtonAccessibilityLabel,Verbundene Zimmer
+cardTypeNotAcceptedMessage,Kredit-/Debitkarte nicht für diese Unterkunft gültig.
+didNotAcceptTermsTitle,Allgemeine Geschäftsbedingungen akzeptieren
+didNotAcceptTermsMessage,"Bitte lesen und aktivieren Sie das Kontrollkästchen für die Allgemeinen Geschäftsbedingungen, um die Buchung abzuschließen."
+AAAErrorTitle,AAA
+AARPErrorTitle,AARP
+cvvErrorTitle,CVV
+defaultApplePayErrorTitle,Wir konnten Ihre Zahlungsmethode nicht verarbeiten.
+defaultApplePayErrorMessage,Ihre Apple Pay-Transaktion wurde nicht durchgeführt. Bitte verwenden Sie eine andere Karte oder Zahlungsmethode.
+capitalPointsValueLabel %@,%@ Punkte
+businessTravelTitle %@,Sie buchen derzeit für <b>%@</b>.
+changeBusinessCTA,Unternehmen wechseln
+changeToPersonalTravelCTA,Zu privater Reise wechseln
+changeToBusinessTravelCTA,Zu Geschäftsreise wechseln
+alertH4BTitle,Sind Sie sicher?
+alertChangingBusinessMessage,Der Wechsel des Unternehmens startet eine neue Suche.
+alertChangingStayMessage,Das Ändern Ihrer Aufenthaltsdetails startet eine neue Suche.
+alertCancelCTA,Abbrechen
+changeToBusinessTravelAlertTitle,Auf Geschäftsreise wechseln?
+changeToBusinessTravelAlertMessage,"Um Ihre Aufenthaltsdetails zu ändern, beginnen Sie bitte eine neue Suche und wählen Sie Ihr gewünschtes Ziel aus."
+cardExpiresSoonErrorTitle,Karte läuft bald ab
+cardExpiresSoonErrorMessage,"Ihre Kreditkarte läuft vor Ihrem Ankunftsdatum ab. Wir empfehlen, sie zu aktualisieren, um Ihre Reservierung sicherzustellen. Aktualisieren Sie Ihre Karte jetzt?"
+bookAnywayAlertSelectionTitle,Trotzdem buchen
+additionalSpecialRatesInformation,Zusätzliche Informationen
+aaaInputLabel,AAA
+aaaInternationalInputLabel,AAA
+aarpInputLabel,AARP
+commissionableLabel,Provisionsfähig
+aaaRateDisclaimerText,Bitte geben Sie alle 16 Ziffern Ihrer Mitgliedskarte ein (ohne Leerzeichen).
+aaaInternationalRateDisclaimerText,Bitte geben Sie Ihren 3-stelligen Club-Code von der Vorderseite Ihrer Karte ein.
+aarpRateDisclaimerText,"Durch das Einreichen Ihrer AARP-Mitgliedsnummer erklären Sie sich damit einverstanden, dass wir Ihren Namen zusammen mit den Einzelheiten Ihrer Transaktion mit AARP und seinen Partnern teilen dürfen. <b>*ID erforderlich beim Check-in.</b>"
+aaaInputErrorLabel %lld,Ihre AAA-Mitgliedsnummer sollte genau %lld Stellen haben.
+aaaInternationalInputErrorLabel %lld,Ihre AAA-Mitgliedsnummer sollte genau %lld Stellen haben.
+aarpInputErrorLabel %lld,Ihre AARP-Mitgliedsnummer sollte nicht länger als %lld Stellen sein.
+exclusivelyDiamond48RatesTitle,Diamond-Reservierungsgarantie
+exclusivelyDiamond48RatesMessage,"Das ausgewählte Hotel ist nicht verfügbar. Als geschätzter Diamond VIP könnte Ihnen ein Zimmer zur Verfügung stehen, wenn Sie vor Mitternacht Ortszeit des Hotels, 48 Stunden vor der beabsichtigten Ankunft reservieren."
+exclusivelyDiamond48RatesProceed,Mit nur 1 Zimmer fortfahren
+arrivalDateInPastTitle,Dieses Datum liegt in der Vergangenheit.
+arrivalDateInPastMessage,"Es ist bereits morgen an diesem Ort, daher müssen Sie ein neues Ankunftsdatum auswählen."
+bookingBannerText,"Ihre Reservierung beinhaltet nach dem Checkout einen zusätzlichen Betrag von $1 USD (oder den jeweiligen Gegenwert in USD) pro Zimmer und Nacht, der zur Unterstützung der <a href=""https://hiltonglobalfoundation.hilton.com/"">Hilton Global Foundation</a> und unseres <a href=""https://hiltontmaf.charity.org/campaigns/424"">Mitarbeiterhilfsfonds</a> erhoben wird. Diese Zahlung wird zum Zeitpunkt des Checkouts separat belastet und erscheint als ""Hilton Global Fnd/TMAF"" auf Ihrem Kontoauszug. Kein Anteil dieser Zahlung ist erstattungsfähig oder steuerlich absetzbar."
+confirmationBannerText,"Danke, dass Sie Hilton's Ziele für nachhaltiges Reisen durch die <a href=""https://hiltonglobalfoundation.hilton.com/"">Hilton Global Foundation</a> und in Krisenzeiten Hilton Teammitglieder durch unseren <a href=""https://hiltontmaf.charity.org/campaigns/424"">Teammitglied-Hilfsfonds</a> unterstützen. Eine Gebühr von $1 USD (oder entsprechender Betrag in USD) pro Zimmer und Nacht wird auf Ihrem Kontoauszug nach dem Checkout als ""Hilton Global Fnd/TMAF"" angezeigt. Kein Teil dieser Zahlung ist erstattungsfähig oder steuerlich absetzbar."
+defaultSegmentation,"Segmentierung (auch als Profilierung bezeichnet) ist der Prozess, bei dem eine große Gruppe von Verbrauchern basierend auf gemeinsamen Merkmalen wie Geografie, Verhalten oder Demografie in Untergruppen von Verbrauchern (sogenannte Segmente) unterteilt wird."
+defaultMakesAutomatedDecisions,"Automatisierte Entscheidungsfindung ist der Prozess, bei dem eine Entscheidung automatisch getroffen wird, das heißt ohne menschliches Eingreifen, um bestimmten Verbrauchern basierend auf Segmentierung bestimmte Vorteile zu bieten."
+defaultOptOutMessage,"Ich verstehe, dass wenn ich meine Zustimmung gegeben habe, der Kontaktliste von Hilton beizutreten oder Hilton zu gestatten, automatisierte Entscheidungen zu treffen, ich diese Zustimmung jederzeit widerrufen kann, indem ich den Anweisungen folge, die Hilton in jeder Marketingnachricht gibt, oder, wenn ich Mitglied von Hilton Honors bin, indem ich die Einstellungen in meinem Konto ändere. Wenn ich meine Zustimmung gegeben habe, der Kontaktliste von HGV beizutreten, kann ich diese Zustimmung jederzeit widerrufen, indem ich den Anweisungen folge, die HGV in jeder Marketingnachricht gibt."
+defaultGeneralUSAEnrollDisclaimer,"Durch Klicken auf die Schaltfläche „Hilton Honors beitreten“ erkläre ich mich mit den <a href=""https://www.hilton.com/en/hilton-honors/terms/"">Hilton Honors Programmbedingungen</a> einverstanden und stimme der Erhebung, Verwendung, Weitergabe und Übertragung von Informationen gemäß der <a href=""https://www.hilton.com/en/p/global-privacy-statement/"">Globalen Datenschutzerklärung</a> und der <a href=""https://www.hilton.com/en/p/global-privacy-statement/"">Datenschutzklausel</a> zu. Ich stimme auch zu, Sonderangebote und Promotionen von Hilton per E-Mail und Direktwerbung zu erhalten. Ich verstehe, dass ich jederzeit von Angeboten und Promotionen abmelden kann, indem ich meine Abonnementeinstellungen in meinem Hilton Honors-Profil ändere."
+defaultGeneralUSAOCEDisclaimer,"Durch den Beitritt zu Hilton Honors erkläre ich mich mit den <a href=""https://www.hilton.com/en/hilton-honors/terms/"">Hilton Honors Programmbedingungen</a> einverstanden und stimme der Erhebung, Verwendung, Weitergabe und Übertragung von Informationen gemäß der <a href=""https://www.hilton.com/en/p/global-privacy-statement/"">Globalen Datenschutzerklärung</a> und der <a href=""https://www.hilton.com/en/p/global-privacy-statement/"">Datenschutzklausel</a> zu. Ich stimme auch zu, Sonderangebote und Promotionen von Hilton per E-Mail und Direktwerbung zu erhalten. Ich verstehe, dass ich jederzeit von Angeboten und Promotionen abmelden kann, indem ich meine Abonnementeinstellungen in meinem Hilton Honors-Profil ändere."
+defaultGeneralNotUSAEnrollDisclaimer,"Durch die Zustimmung zum Beitritt zu Hilton Honors stimmen Sie den <a href=""https://www.hilton.com/en/hilton-honors/terms/"">Hilton Honors Programmbedingungen</a> zu. Hilton erhebt personenbezogene Daten über Sie, wenn Sie eine Reservierung vornehmen oder sich anderweitig bei Hilton registrieren. Hilton verwendet Ihre personenbezogenen Daten, um Ihnen Dienstleistungen und Produkte bereitzustellen, Kundendienst anzubieten, und für andere Zwecke, die in unserer <a href=""https://www.hilton.com/en/p/global-privacy-statement/"">Globalen Datenschutzerklärung</a> detailliert beschrieben sind. Hilton kann Ihre personenbezogenen Daten unter Mitgliedern des Hilton Markenportfolios, Dienstenanbietern von Hilton und anderen Dritten teilen. Durch Klicken auf die Schaltfläche „Hilton Honors beitreten“ erkennen Sie an, dass Ihre personenbezogenen Daten wie in der <a href=""https://www.hilton.com/en/p/global-privacy-statement/"">Hilton Global-Datenschutzerklärung</a> dargelegt, erhoben, verwendet, geteilt und übertragen werden."
+defaultGeneralNotUSAOCEDisclaimer,"Durch die Zustimmung zum Beitritt zu Hilton Honors stimmen Sie den <a href=""https://www.hilton.com/en/hilton-honors/terms/"">Hilton Honors Programmbedingungen</a> zu. Hilton erhebt personenbezogene Daten über Sie, wenn Sie eine Reservierung vornehmen oder sich anderweitig bei Hilton registrieren. Hilton verwendet Ihre personenbezogenen Daten, um Ihnen Dienstleistungen und Produkte bereitzustellen, Kundendienst anzubieten, und für andere Zwecke, die in unserer <a href=""https://www.hilton.com/en/p/global-privacy-statement/"">Globalen Datenschutzerklärung</a> detailliert beschrieben sind. Hilton kann Ihre personenbezogenen Daten unter Mitgliedern des Hilton Markenportfolios, Dienstenanbietern von Hilton und anderen Dritten teilen. Durch Klicken auf die Schaltfläche „Jetzt buchen“ erkennen Sie an, dass Ihre personenbezogenen Daten wie in der <a href=""https://www.hilton.com/en/p/global-privacy-statement/"">Hilton Global-Datenschutzerklärung</a> dargelegt, erhoben, verwendet, geteilt und übertragen werden."
+defaultGeneralChinaEnrollDisclaimer,"Durch die Zustimmung zum Beitritt zu Hilton Honors stimmen Sie den <a href=""https://www.hilton.com/en/hilton-honors/terms/"">Hilton Honors Programmbedingungen</a> zu. Hilton erhebt personenbezogene Daten über Sie, wenn Sie eine Reservierung vornehmen oder sich anderweitig bei Hilton registrieren. Hilton verwendet Ihre personenbezogenen Daten, um Ihnen Dienstleistungen und Produkte bereitzustellen, Kundendienst anzubieten, und für andere Zwecke, die in unserer <a href=""https://www.hilton.com/en/p/global-privacy-statement/"">Globalen Datenschutzerklärung</a> detailliert beschrieben sind. Hilton kann Ihre personenbezogenen Daten unter Mitgliedern des Hilton Markenportfolios, Dienstenanbietern von Hilton und anderen Dritten teilen. Durch Klicken auf die Schaltfläche „Hilton Honors beitreten“ erkennen Sie an, dass Ihre personenbezogenen Daten wie in der <a href=""https://www.hilton.com/en/p/global-privacy-statement/"">Hilton Global-Datenschutzerklärung</a> dargelegt, erhoben, verwendet, geteilt und übertragen werden."
+defaultGeneralChinaOCEDisclaimer,"Durch die Zustimmung zum Beitritt zu Hilton Honors stimmen Sie den <a href=""https://www.hilton.com/en/hilton-honors/terms/"">Hilton Honors Programmbedingungen</a> zu. Hilton erhebt personenbezogene Daten über Sie, wenn Sie eine Reservierung vornehmen oder sich anderweitig bei Hilton registrieren. Hilton verwendet Ihre personenbezogenen Daten, um Ihnen Dienstleistungen und Produkte bereitzustellen, Kundendienst anzubieten, und für andere Zwecke, die in unserer <a href=""https://www.hilton.com/en/p/global-privacy-statement/"">Globalen Datenschutzerklärung</a> detailliert beschrieben sind. Hilton kann Ihre personenbezogenen Daten unter Mitgliedern des Hilton Markenportfolios, Dienstenanbietern von Hilton und anderen Dritten teilen. Durch Klicken auf die Schaltfläche „Jetzt buchen“ erkennen Sie an, dass Ihre personenbezogenen Daten wie in der <a href=""https://www.hilton.com/en/p/global-privacy-statement/"">Hilton Global-Datenschutzerklärung</a> dargelegt, erhoben, verwendet, geteilt und übertragen werden."
+defaultNotUSAHiltonMarketingTitle,Hilton Marketing
+defaultNotUSAHiltonMarketingMessage,"Ich stimme zu, Marketingnachrichten und Werbeangebote von Hilton Domestic Operating Company Inc. (""Hilton"") per E-Mail, Direktwerbung und SMS zu erhalten, wie in der <a href=""https://www.hilton.com/en/p/global-privacy-statement/"">Hilton Global-Datenschutzerklärung</a> beschrieben."
+defaultNotUSAPersonalisedOffersTitle,Personalisierte Angebote und Inhalte
+defaultNotUSAPersonalisedOffersMessage,"Ich bin damit einverstanden, dass Hilton <a href=""hhonors://app/enroll/segmentation/"">Segmentierung</a> vornimmt, um <a href=""hhonors://app/enroll/automatedDecisions/"">automatisierte Entscheidungen</a> zu treffen und mir personalisierte Marketingnachrichten und Werbeangebote zu präsentieren. Ich erkenne an, dass Hilton meine personenbezogenen Daten gemäß der <a href=""https://www.hilton.com/en/p/global-privacy-statement/"">Hilton Global-Datenschutzerklärung</a> verarbeitet."
+defaultNotUSAHGVMarketingTitle,Hilton Grand Vacations Marketing
+defaultNotUSAHGVMarketingMessage,"Ich stimme zu, Marketingnachrichten und Werbeangebote von Hilton Grand Vacations (""HGV""), unserem Drittpartner, per E-Mail, Direktwerbung und Telefon zu erhalten, wie in der <a href=""https://www.hiltongrandvacations.com/en/privacy-policy.html"">Datenschutzerklärung von HGV</a> beschrieben."
+defaultChinaHiltonMarketingTitle,Hilton Marketing
+defaultChinaHiltonMarketingMessage,"Ich möchte Nachrichten, Sonderangebote und Promotionen von Hilton Domestic Operating Company Inc. per E-Mail, Direktwerbung, Telefon, SMS, Push-Benachrichtigungen, In-App-Mitteilungen und auf andere Weise wie in der <a href=""https://www.hilton.com/en/p/global-privacy-statement/"">Hilton Global-Datenschutzerklärung</a> beschrieben, erhalten. Ich verstehe, dass meine personenbezogenen Daten zu dem genannten Zweck an Hilton Domestic Operating Company Inc. in die Vereinigten Staaten übertragen werden."
+defaultCCPADisclaimer,"Verbraucher in Kalifornien, <a href=""https://www.hilton.com/en/p/global-privacy-statement/#CaliforniaRights"">klicken Sie hier</a>, um mehr über Hiltons Erhebung und Verwendung Ihrer persönlichen Daten zu erfahren."
+disclaimerFullText,"Ich habe die <a href=""hhonors://app/book/rulesAndRestrictions/"">Regeln und Einschränkungen</a> und die <a href=""https://www.hilton.com/en/p/site-usage-agreement/"">Nutzungsbedingungen</a> gelesen und akzeptiert."
+FirstPage.Frame_1.text.0,Erste
+FirstPage.Frame_2.text,"Screenshot Nr. 2
+"
+Page_1.LIGHT_TO_DEEP_COOL.Frame_10690.HEADER.text,"NEU{family: ABeeZee; style: Regular;} STUDIO FIX PUDER
+PLUS FOUNDATION"
+Page_1.LIGHT_TO_DEEP_COOL.Frame_10690.Frame_10689.Frame_10641.Frame_9682.text,C2
+Page_1.LIGHT_TO_DEEP_COOL.Frame_10690.Frame_10689.Frame_10641.Frame_9680.text,C3.5
+Page_1.LIGHT_TO_DEEP_COOL.Frame_10690.Frame_10689.Frame_10641.Frame_9681.text,C3
+1,John Doe
+2,Jane Smith
+3,Peter Jones
+app_name,Meine Chrome-Erweiterung
+button_label,Absenden
+tk.uiaas.orderStatus.details.orderComments,Markierungen
+tk.uiaas.orderentry.orderstatus.detail.lineItem.plannedDeliverydate,Geplantes Lieferdatum
+tk.uiaas.orderentry.orderstatus.detail.inValidMobilePhoneNumber,Das Format Ihrer Mobiltelefonnummer ist ungültig. Bitte aktualisieren Sie Ihr Profil.
+tk.uiaas.orderStatus.details.forwardingAgent,Name des Spediteurs
+tk.uiaas.orderentry.orderstatus.detail.deliveryInstruction,Lieferanweisung
+tk.uiaas.orderstatus.detail.customerPilotCode,Pilot-Code
+tk.uiaas.orderentry.orderstatus.detail.deliveryNoteNumber,Lieferscheine
+tk.uiaas.orderstatus.detail.cpqQuotationNumbers,CPQ-Angebotsnummer
+tk.uiaas.orderstatus.detail.addToList.save,Speichern
+tk.uiaas.orderentry.orderstatus.detail.incoterm.FOB,FOB – Kostenlos an Bord
+tk.uiaas.orderentry.orderstatus.detail.mySEReferenceNumber,mySE-Referenz
+tk.uiaas.orderentry.orderstatus.detail.lineItem.dateType.S,Voraussichtliches Versanddatum
+tk.uiaas.orderentry.orderstatus.detail.lineItem.dateType.A,Erwartetes Ankunftsdatum
+tk.uiaas.orderentry.orderstatus.detail.addToList.cancel,Abbrechen
+tk.uiaas.orderstatus.detail.dispatchCenter.prefix.AE30,Proyektos
+tk.uiaas.orderStatus.details.totalVolume,Gesamtvolumen
+tk.uiaas.orderstatus.detail.statusAndDate,Status und Datum
+tk.uiaas.orderstatus.detail.dispatchCenter.prefix.AE27,PLANTA FUNZA
+tk.uiaas.orderstatus.detail.dispatchCenter.prefix.AE26,FUNZA
+tk.uiaas.orderstatus.detail.dispatchCenter.prefix.AE25,MONTEVIDEO
+tk.uiaas.orderstatus.detail.deliveryDetails,Lieferdetails
+tk.uiaas.orderStatus.details.stagingOrder,Reihenfolge der Bereitstellung
+tk.uiaas.orderstatus.detail.duplicateShoppingListMessage,Es existiert bereits eine Liste mit diesem Namen. Bitte geben Sie einen anderen Namen ein.
+tk.uiaas.orderentry.orderstatus.detail.orderEntryErrorMessageGenericMessage,Nachricht zur Auftragsänderung
+tk.uiaas.orderstatus.detail.shippingReport.download.filenamewithoutextension,orderVersandBericht
+tk.uiaas.orderstatus.detail.callCCC,CCC anrufen
+tk.uiaas.orderStatus.details.status,Status
+tk.uiaas.orderentry.orderstatus.detail.hideCommercial,Erste kommerzielle Bedingungen ausblenden
+tk.uiaas.orderstatus.detail.projectName,Projektname
+tk.uiaas.orderentry.orderstatus.detail.forwardingAgentAddress,Adresse des Spediteurs
+tk.uiaas.orderstatus.detail.lineItem.configured.hive.file,Konfiguriert mit Nesselsucht-Datei
+tk.uiaas.orderentry.orderstatus.detail.warehouse,Lager
+tk.uiaas.orderstatus.details.section.relatedDocuments,Verwandte Dokumente
+tk.uiaas.orderentry.orderstatus.detail.lineItem.multipleDate.scheduleQuantity,Gesamtbestellte Menge
+tk.uiaas.orderstatus.detail.deliveryService,Lieferservice
+tk.uiaas.orderstatus.detail.poLine,PO-Zeile
+tk.uiaas.orderentry.orderstatus.detail.stage,Phasen
+tk.uiaas.orderstatus.detail.quotationNumber,Angebotsnummer
+tk.uiaas.orderstatus.details.headerNotificationSubscription,Benachrichtigung zum Bestellstatus
+tk.uiaas.orderStatus.details.lineItem.testReport,Testbericht
+tk.uiaas.orderstatus.detail.itemDelayed,Artikel verzögert
+tk.uiaas.orderstatus.detail.incoterm2,Incoterm (2)
+tk.uiaas.orderstatus.detail.lineItem.totalQuantityReserved,Reservierte Menge
+tk.uiaas.orderstatus.detail.lineItem.shippingPoint.MX14,Frontera
+tk.uiaas.orderstatus.detail.lineItem.shippingPoint.MX16,Versand abgeben
+tk.uiaas.orderstatus.detail.lineItem.shippingPoint.MX15,Dringend
+tk.uiaas.orderstatus.detail.lineItem.shippingPoint.MX10,Standard
+tk.uiaas.orderstatus.detail.lineItem.shippingPoint.MX11,Express
+tk.uiaas.orderstatus.detail.lineItem.shippingPoint.MX17,Abholung
+tk.uiaas.orderStatus.details.lineItem.lineNo,Zeilen-Nr.
+tk.uiaas.orderstatus.detail.arPDF.notfound,Empfangsbestätigung nicht gefunden
+tk.uiaas.orderstatus.detail.invoiceEmailPdf,Rechnung PDF
+tk.uiaas.orderStatus.details.documentRef.note,"Hinweis: Bitte geben Sie bei der Abholung von Artikeln Ihre Referenznummer an, wenn es sich um eine KOLLEKTION handelt."
+tk.uiaas.orderentry.orderstatus.detail.trackingNumber,Tracking-/Frachtbriefnummer
+tk.uiaas.orderentry.orderstatus.detail.oldActivationID,Alte Aktivierungs-ID
+tk.uiaas.orderentry.orderstatus.detail.deliveryTermDDVEN,Lieferant
+tk.uiaas.orderentry.orderstatus.detail.deliveryUnit,Maßeinheit
+tk.uiaas.orderentry.orderstatus.detail.projectName,Projektname
+tk.uiaas.orderStatus.details.lineItem.description,Beschreibung
+tk.uiaas.orderstatus.details.completeDeliveryWarning,"Mehrere Artikel werden aus verschiedenen Vertriebszentren versandt, was eine vollständige Lieferung für sie undurchführbar macht."
+tk.uiaas.orderStatus.details.lineItem.lastPlannedDeliverydate,Letztes geplantes Lieferdatum
+tk.uiaas.orderentry.orderstatus.detail.orderModificationReValidationErrorMessage,Letzte Aktualisierung des Bestellstatus
+tk.uiaas.orderstatus.detail.requestExpediteConfirmTitle,Bestätigung
+tk.uiaas.orderstatus.detail.orderModificationReValidationErrorMessage,Letzte Aktualisierung des Bestellstatus
+tk.uiaas.orderentry.orderstatus.detail.reOrderHeaderMessage,Nachbestellung
+tk.uiaas.orderstatus.detail.orderType,Art der Bestellung
+tk.uiaas.orderstatus.detail.deliveryTermFH,Kostenloses Haus
+tk.uiaas.orderentry.orderstatus.detail.lineItem.yes,Ja
+tk.uiaas.orderstatus.detail.dispatchCenter.prefix.O001,O001
+tk.uiaas.orderstatus.detail.specificOrderReference,Spezifische Auftragsreferenz
+tk.uiaas.orderStatus.details.deliveryInstructions,Lieferanweisungen
+tk.uiaas.orderStatus.details.contractNumber,Vertragsnummer
+tk.orderstatus.detail.emailSubscription,E-Mail
+tk.uiaas.orderstatus.details.section.accountAndOrder,Konto- und Bestelldetails
+tk.uiaas.orderstatus.detail.deliveryNumber,Packliste
+tk.uiaas.orderstatus.detail.premiumWithExpressdMessage,"Durch die Auswahl des Expressversands werden zusätzliche Gebühren berechnet, einschließlich Referenzen zu „Premium Services“. Überprüfen Sie den Betrag, indem Sie auf „Schätzung“ drücken"
+tk.uiaas.orderStatus.details.commercial.totalAmountWithTax,Summe
+tk.uiaas.orderStatus.details.completeDelivery,Vollständige Lieferung
+tk.uiaas.orderstatus.detail.designation,Bezeichnung
+tk.uiaas.orderstatus.details.notification.subscription.tooltip,Benachrichtigungen zu dieser Bestellung erhalten
+tk.uiaas.orderentry.orderstatus.detail.lineItem.contractualDate,Vertragsdatum
+tk.uiaas.orderentry.orderstatus.detail.premiumWithStandardMessage,"Sie haben die Standardsendung ausgewählt, für zusätzliche Premium-Services werden jedoch Gebühren berechnet. Überprüfen Sie den Betrag, indem Sie auf „Schätzung“ drücken"
+tk.uiaas.orderentry.orderstatus.detail.deliveryTermDDSEE,Schneider
+tk.uiaas.orderentry.orderstatus.detail.deliveryTermFH,Kostenloses Haus
+tk.uiaas.orderstatus.detail.dates,Daten
+tk.uiaas.orderentry.orderstatus.detail.criticalItem,Kritisch
+tk.uiaas.orderstatus.detail.poNumber,PO-Nr.
+tk.uiaas.orderentry.orderstatus.detail.deliveryTermUN,Nicht kostenlos
+tk.uiaas.orderentry.orderstatus.detail.totalQtyShipped,Gesamte versandte Menge
+tk.uiaas.orderentry.orderstatus.detail.notificationSubscription,Registrierung von Bestellstatusbenachrichtigungen
+tk.uiaas.orderstatus.detail.more,&gt &nbsp Mehr
+tk.uiaas.orderentry.orderstatus.detail.lineItem.configured.hive.file,Konfiguriert mit Nesselsucht-Datei
+tk.uiaas.orderentry.orderstatus.detail.saveAsFavoriteList,Als Favoritenliste speichern
+tk.uiaas.orderstatus.detail.lineItem.orderLineMarking,Kommentar
+tk.uiaas.orderstatus.detail.invoiceEmailPdfSuccessMessage,Die von Ihnen angeforderte(n) Rechnung(en) wird/werden Ihnen per E-Mail zugesandt
+tk.uiaas.orderstatus.detail.delayType,Art der Verzögerung
+tk.uiaas.orderentry.orderstatus.detail.itemDelayed,Artikel verzögert
+tk.uiaas.orderstatus.detail.reOrder,Nachbestellung
+tk.uiaas.orderentry.orderstatus.detail.webUserAccount,Web-Benutzerkonto
+tk.uiaas.orderstatus.detail.booked.false,Falsch
+tk.uiaas.orderentry.orderstatus.detail.mxOrderType,Auftragsart
+tk.uiaas.orderentry.orderstatus.detail.releaseDate,Freigabedatum
+tk.uiaas.orderentry.orderstatus.detail.addToList.save,Speichern
+tk.uiaas.orderentry.orderstatus.detail.invoicePDF.title,PDF aufrufen
+tk.uiaas.orderstatus.detail.paymentTerms,Zahlungsbedingungen
+tk.uiaas.orderstatus.detail.tokenAsOfText,ab
+tk.uiaas.orderstatus.detail.deliveryTermFOB,Kostenlos an Bord
+tk.uiaas.orderstatus.detail.deliveryTermFCA,Kostenloser Spediteur
+tk.uiaas.orderStatus.details.lineItem.contractNumber,Vertrags-Nr.
+tk.uiaas.orderentry.orderstatus.detail.creditStatus,Status der Gutschrift
+tk.uiaas.orderStatus.details.programmedOrder,Programmierte Bestellung
+tk.uiaas.orderstatus.detail.selectInvoice,Eine Rechnung auswählen
+tk.uiaas.orderStatus.details.commercial.totalAmount,Gesamtbetrag
+tk.uiaas.orderstatus.detail.deliveryTermFAS,Kostenlos auf dem Schiff
+tk.uiaas.orderstatus.detail.orderEntryWarningMessageGenericMessage,Nachricht zur Auftragsänderung
+tk.uiaas.orderstatus.detail.deliveryTermCFR,Kosten und Fracht
+tk.uiaas.orderstatus.detail.lineItem.qtyExpedite,Beschleunigte Menge
+tk.uiaas.orderstatus.detail.deliveryTermCIF,"Kosten, Versicherung und Fracht"
+tk.uiaas.orderstatus.detail.requestedDeliveryDateForOrderBlocked,Lieferdatum für Bestellung gesperrt
+tk.uiaas.orderstatus.detail.deliveryTermCIP,Beförderung und Versicherung bezahlt an
+tk.uiaas.orderstatus.detail.deliveryTermEXW,Ex-Arbeiten
+tk.uiaas.orderstatus.detail.createdByInfo,Erstellt von
+tk.uiaas.orderStatus.details.comments,Kommentare
+tk.uiaas.orderStatus.details.commercial.lineItem.materialActivity,Materialaktivität
+tk.uiaas.orderentry.orderstatus.detail.lineItem.shippingPoint.MX10,Standard
+tk.uiaas.orderentry.orderstatus.detail.lineItem.shippingPoint.MX11,Express
+tk.uiaas.orderentry.orderstatus.detail.lineItem.shippingPoint.MX14,Frontera
+tk.uiaas.orderentry.orderstatus.detail.lineItem.shippingPoint.MX16,Versand abgeben
+tk.uiaas.orderentry.orderstatus.detail.lineItem.shippingPoint.MX15,Dringend
+tk.uiaas.orderentry.orderstatus.detail.lineItem.shippingPoint.MX17,Abholung
+tk.uiaas.orderentry.orderstatus.detail.invoiceNumber,Rechnungsnummer
+tk.uiaas.orderStatus.details.dateType,Datumstyp
+tk.uiaas.orderstatus.detail.lineItem.lastPlannedDeliverydate,Letztes geplantes Lieferdatum
+tk.uiaas.orderentry.orderstatus.details.notificationSubscription,Registrierung von Bestellstatusbenachrichtigungen
+tk.uiaas.orderstatus.detail.description,Beschreibung
+tk.uiaas.orderentry.orderstatus.detail.No,Nein
+tk.uiaas.orderStatus.details.lineItem.committedDate,Ursprüngliches Versprochenes Datum
+tk.uiaas.orderstatus.detail.at,bei
+tk.uiaas.orderentry.orderstatus.detail.etaDate,ETA-Datum
+tk.uiaas.orderentry.orderstatus.detail.lineItem.premiumService,Premium
+tk.uiaas.orderstatus.detail.deliveryTermDAP,An Ort und Stelle geliefert
+tk.uiaas.orderstatus.detail.deliveryTermDAF,Lieferung an der Grenze
+tk.uiaas.orderstatus.detail.deliveryTermDDP,Zugestellte Zollgebühren bezahlt
+tk.uiaas.orderStatus.details.incoterm,Incoterm
+tk.uiaas.orderstatus.detail.deliveryTermDDU,Zugestellte Zollgebühr unbezahlt
+tk.uiaas.orderentry.orderstatus.detail.lineItem.approvalNeeded,Genehmigung erforderlich
+tk.uiaas.orderstatus.detail.deliveryTermDEQ,Ab Kai geliefert (gebührenpflichtig)
+tk.uiaas.orderstatus.detail.deliveryTermDES,Ab Versand geliefert
+tk.uiaas.orderstatus.detail.No,Nein
+tk.uiaas.orderstatus.detail.deliveryTermCPT,Beförderung bezahlt an
+tk.uiaas.orderStatus.details.lineItem.firstDate,Erstes Datum
+tk.uiaas.orderentry.orderstatus.detail.completeDelivery,Vollständige Lieferung
+tk.uiaas.orderentry.orderstatus.detail.quotationNumber,Angebotsnummer
+tk.uiaas.orderstatus.detail.packingListEmailPdfSuccessMessage,Die von Ihnen angeforderte/n Packliste(n) wird/werden Ihnen per E-Mail zugesandt
+tk.uiaas.orderStatus.details.commercial.lineItem.productHierarchy,Produkthierarchie
+tk.uiaas.orderentry.orderstatus.detail.poLine,PO-Zeile
+tk.uiaas.orderentry.orderstatus.detail.comments,Kommentare
+tk.uiaas.orderStatus.details.lineItem.bomProduct,Stücklisten-Produkt
+tk.uiaas.orderstatus.detail.deliveryTermDDCFR,Kosten und Fracht
+tk.uiaas.orderstatus.detail.dailyEmailSubscription,Täglicher Bericht (per E-Mail)
+tk.uiaas.orderstatus.detail.deliveryTermDDCIF,"Kosten, Versicherung und Fracht"
+tk.uiaas.orderentry.orderstatus.detail.cancelReason.A222,Modifikation (Mengenabnahme)
+tk.uiaas.orderstatus.detail.totalVolume,Gesamtvolumen
+tk.uiaas.orderstatus.detail.button.delayReasonButton,Verspätungsgrund für geprüft abrufen
+tk.uiaas.orderentry.orderstatus.detail.shippingCondition,Versandbedingung
+tk.uiaas.orderstatus.detail.seOrderRefNo,Schneider Electric Bestell-Nr.
+tk.uiaas.orderstatus.detailDelayReason.title,Auftragsstatusdetails – Grund für die Verzögerung
+tk.uiaas.orderentry.orderstatus.detail.totalBackOrdered,Gesamtrückstand bestellt
+tk.uiaas.orderstatus.detail.chatUrl,http://chat.url
+tk.uiaas.orderstatus.detail.totalQtyShipped.table,Versendet:
+tk.uiaas.orderstatus.detail.deliveryTermDDCPT,Beförderung bezahlt an
+tk.uiaas.orderentry.orderstatus.detail.at,bei
+tk.uiaas.orderstatus.detail.catalogNumberDescription,Beschreibung
+tk.uiaas.orderstatus.detail.deliveryService.ZG,Vier(4) Stunden Lieferung
+tk.uiaas.orderstatus.detail.deliveryService.Z5,Express importieren
+tk.uiaas.orderstatus.detail.deliveryTermDDCIP,Beförderung und Versicherung bezahlt an
+tk.uiaas.orderstatus.detail.deliveryTermDDUN,Nicht kostenlos
+tk.uiaas.orderstatus.detail.deliveryTermDDDEQ,Ab Kai geliefert (gebührenpflichtig)
+tk.uiaas.orderstatus.detail.deliveryTermDDDES,Ab Versand geliefert
+tk.uiaas.orderstatus.detail.booked,Gebucht
+tk.uiaas.orderstatus.detail.deliveryTermDDDDP,Zugestellte Zollgebühren bezahlt
+tk.uiaas.orderstatus.details.section.sellingParty,Verkaufende Partei
+tk.uiaas.orderstatus.detail.deliveryTermDDDDU,Zugestellte Zollgebühr unbezahlt
+tk.uiaas.orderstatus.detail.deliveryTermDDDAP,An Ort und Stelle geliefert
+tk.uiaas.orderstatus.detail.totalQtyOrdered.table,Gebestellt:
+tk.uiaas.orderstatus.detail.deliveryTermDDDAF,Lieferung an der Grenze
+tk.uiaas.orderentry.orderstatus.detail.lineitem.pushOrderLink,&gt &nbsp Link
+tk.uiaas.orderstatus.detail.deliveryTermDDFH,Kostenloses Haus
+tk.uiaas.orderstatus.detail.deliveryService.11,Express
+tk.uiaas.orderstatus.detail.deliveryService.13,Export-Schulung
+tk.uiaas.orderstatus.detail.deliveryService.12,Cross-Docking
+tk.uiaas.orderstatus.detail.deliveryService.15,Export-FCL
+tk.uiaas.orderstatus.detail.deliveryService.14,Export-LCL
+tk.uiaas.orderstatus.detail.deliveryService.17,Außenstation – Straße
+tk.uiaas.orderstatus.detail.deliveryService.16,Export-Selbstabholung
+tk.uiaas.orderstatus.detail.deliveryService.00,Export-Kourier
+tk.uiaas.orderstatus.detail.deliveryService.02,Export-Luft
+tk.uiaas.orderstatus.detail.deliveryService.01,See exportieren
+tk.uiaas.orderstatus.detail.deliveryService.04,Lokaler Gerichtshof
+tk.uiaas.orderstatus.detail.deliveryService.03,Export-Straße
+tk.uiaas.orderstatus.detail.deliveryService.06,Lokal-Selbstsammlung
+tk.uiaas.orderstatus.detail.deliveryService.05,Lokal-Straße
+tk.uiaas.orderstatus.detail.deliveryService.08,Lokales-Meer
+tk.uiaas.orderstatus.detail.deliveryService.07,Lokale-Luft
+tk.uiaas.orderstatus.detail.deliveryService.09,Lokal – Luft und Straße
+tk.uiaas.orderstatus.detail.deliveryService.21,Rückgabe
+tk.uiaas.orderStatus.details.commercial.minOrderSurcharge,Zuschlag
+tk.uiaas.orderStatus.details.commercial.totalListPrice,Gesamter Listenpreis
+tk.uiaas.orderentry.orderstatus.detail.requestedDeliveryDate,Lieferung erforderlich (nicht Express)
+tk.uiaas.orderStatus.details.commercial.totalFreight,Gesamtfracht
+tk.uiaas.orderstatus.detail.poNumberLabel,Bestellnummer
+tk.uiaas.orderstatus.detail.deliveryTermDDEXW,Ex-Arbeiten
+tk.uiaas.orderStatus.details.commercial.totalIpi,IPI gesamt
+tk.uiaas.orderstatus.detail.hideCommercial,Erste kommerzielle Bedingungen ausblenden
+tk.uiaas.orderstatus.details.notification.multiselection,Halten Sie „Strg“ für Mehrfachauswahl gedrückt
+tk.uiaas.orderstatus.detail.deliveryTermDDFOB,Kostenlos an Bord
+tk.uiaas.orderentry.orderstatus.detail.shippingInstruction,Versandbedingungen
+tk.uiaas.orderstatus.detail.lineItem.premiumService,Premium
+tk.uiaas.orderStatus.details.spaCode,SPA-Code
+tk.uiaas.orderstatus.detail.deliveryTermDDFCA,Kostenloser Spediteur
+tk.uiaas.orderstatus.detail.button.reOrder,Nachbestellung
+tk.uiaas.orderstatus.detail.deliveryTermDDFAS,Kostenlos neben dem Schiff
+tk.uiaas.orderentry.orderstatus.detail.deliveryTermDDDEQ,Ab Kai geliefert (verzollt)
+tk.uiaas.orderentry.orderstatus.detail.deliveryTermDDDES,Ab Versand geliefert
+tk.uiaas.orderentry.orderstatus.detail.deliveryTermDDDDP,Zugestellte Zollzahlung
+tk.uiaas.orderentry.orderstatus.detail.deliveryTermDDDDU,Gelieferte Zollgebühr unbezahlt
+tk.uiaas.orderStatus.details.booked,Gebucht
+tk.uiaas.orderentry.orderstatus.detail.deliveryTermDDDAF,Lieferung an der Grenze
+tk.uiaas.orderStatus.details.premiumDelivery,Premium-Service
+tk.uiaas.orderstatus.detail.partNo.and.description,Produkt-Nr.Beschreibung
+tk.uiaas.orderstatus.detail.inValidMobilePhoneNumber,Das Format Ihrer Mobiltelefonnummer ist ungültig. Bitte aktualisieren Sie Ihr Profil.
+tk.uiaas.orderentry.orderstatus.detail.button.modifyOrder,Bestellung ändern
+tk.uiaas.orderstatus.detail.totalQtyShipped,Gesamte versandte Menge
+tk.uiaas.orderstatus.detail.MyTEReferenceNumber,MyTE-Referenz
+tk.uiaas.orderStatus.details.poNumber,Bestellnummer
+tk.uiaas.orderstatus.detail.spaCode,SPA-Code
+tk.uiaas.orderstatus.detail.lineItem.productConfigureView,Konfiguration anzeigen
+tk.uiaas.orderstatus.detail.stage,Phasen
+tk.uiaas.orderentry.orderstatus.detail.deliveryTermDDCFR,Kosten und Fracht
+tk.uiaas.orderStatus.details.lineItem.stage,Phasen
+tk.uiaas.orderStatus.details.lineItem.qtyNotBefore,Nicht vor Menge
+tk.uiaas.orderentry.orderstatus.detail.forwardingAgent,Name des Spediteurs
+tk.uiaas.orderstatus.detail.moStatus,MO-Status
+tk.uiaas.orderentry.orderstatus.detail.appDownload,>App herunterladen
+tk.uiaas.orderentry.orderstatus.detail.showModal.headerMessage,"Geben Sie den Namen der neuen Liste ein, die Sie erstellen möchten. Der Name sollte sich von Ihren vorhandenen Listennamen unterscheiden."
+tk.uiaas.orderentry.orderstatus.detail.tokenAsOfText,ab
+tk.uiaas.orderstatus.detail.orderComments,Markierungen
+tk.uiaas.orderentry.orderstatus.detail.deliveryTermDDCPT,Beförderung bezahlt an
+tk.uiaas.orderentry.orderstatus.detail.lineItem.no,Nein
+tk.uiaas.orderstatus.detail.lineItem.tracking,Tracking-URL
+tk.uiaas.orderentry.orderstatus.detail.deliveryTermDDCIF,"Kosten, Versicherung und Fracht"
+tk.uiaas.orderentry.orderstatus.detail.deliveryTermDDCIP,Beförderung und Versicherung bezahlt an
+tk.uiaas.orderentry.orderstatus.detail.lineItem.pushOrderHistoryURL,Push-Bestellung
+tk.uiaas.orderstatus.detail.invalidEmail,Ungültige E-Mail-Adresse
+tk.uiaas.orderStatus.details.button.reOrder,Nachbestellung
+tk.uiaas.orderentry.orderstatus.detail.deliveryTermDDFAS,Kostenlos neben dem Schiff
+tk.uiaas.orderstatus.detail.cancelReason.00,00
+tk.uiaas.orderstatus.detail.deliveryNote,Frachtbrief-Nummer
+tk.uiaas.orderstatus.detail.cancelReason.09,09
+tk.uiaas.orderstatus.detail.cancelReason.04,04
+tk.uiaas.orderstatus.detail.moStatus.more,&gt &nbsp Mehr
+tk.uiaas.orderentry.orderstatus.detail.deliveryTermDDFCA,Kostenloser Spediteur
+tk.uiaas.orderstatus.detail.lineItem.configured.with.configurationId,Konfiguriert mit Konfigurations-ID: {{configurationId}}
+tk.uiaas.orderstatus.detail.cancelReason.A2,Änderung (Abnahme der Menge)
+tk.uiaas.orderstatus.detail.cancelReason.A1,Internes falsches Material
+tk.uiaas.orderstatus.detail.cancelReason.A4,Verspätete Lieferungen
+tk.uiaas.orderstatus.detail.cancelReason.A3,Falsches Material vom Kunden
+tk.uiaas.orderstatus.detail.cancelReason.A0,Kundenwunsch zur Stornierung
+tk.uiaas.orderStatus.details.commercial.spaCode,SPA-Code
+tk.uiaas.orderStatus.details.lineItem.totalQtyCancelled,Summe storniert
+tk.uiaas.orderentry.orderstatus.detail.deliveryTermDDFOB,Kostenlos an Bord
+tk.uiaas.orderentry.orderstatus.detail.messageattopline,Das Gewicht und das Volumen sind Netto (d. h. ohne Endverpackung).
+tk.uiaas.orderStatus.details.casename,Name des Falls
+tk.uiaas.orderstatus.detail.cancelReason.A222,Änderung (Abnahme der Menge)
+tk.uiaas.orderstatus.detail.button.collapseAll,Alle reduzieren
+tk.uiaas.orderentry.orderstatus.detail.deliveryTermDDEXW,Ex-Arbeiten
+tk.uiaas.orderstatus.detail.deliveryTermDDSEE,Schneider
+tk.uiaas.orderentry.orderstatus.detail.incoterm.FH,Kostenlos an Bord
+tk.uiaas.orderstatus.detail.itemReference,Artikel-Referenz
+tk.uiaas.orderStatus.details.lineItem.criticalItem,Kritisch
+tk.uiaas.orderentry.orderstatus.detail.expressDelivery,Express-Service
+tk.uiaas.orderentry.orderstatus.detail.lineItem.requestedDeliveryDate,Lieferdatum
+tk.uiaas.orderstatus.details.section.freightDetails,Frachtdetails
+tk.uiaas.orderstatus.detail.trackingDescription,Dieser Link läuft nach 60 Tagen ab
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.Z5,Express importieren
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.ZG,Vier (4) Std. Lieferung
+tk.uiaas.orderstatus.detail.saveAsShoppingList,Artikel in Einkaufsliste speichern
+tk.uiaas.orderstatus.detail.arPDF.title,Empfangsbestätigung
+tk.uiaas.orderstatus.detail.cancelReason.GC,GC
+tk.uiaas.orderstatus.detail.cancelReason.F0,CS: Teil ersetzt (Reparaturauftrag)
+tk.uiaas.orderstatus.detail.cancelReason.CA,CA
+tk.uiaas.orderstatus.detail.cancelReason.D0,CS: Teilweise Stornierung durch Kunde(RB)
+tk.uiaas.orderstatus.detail.back,"Um zur Liste „Meine Bestellungen“ zurückzukehren,"
+tk.uiaas.orderStatus.details.commercial.totalTax,Gesamtsteuer
+tk.uiaas.orderstatus.detail.cancelReason.B0,CS: Gesamtstornierung durch den Kunden (NRB)
+tk.uiaas.orderstatus.detail.incoterm.EXW,EXW – Ex-Werke
+tk.uiaas.orderstatus.detail.cancelReason.C0,CS: Gesamtstornierung durch Schneider(NRB)
+tk.uiaas.orderstatus.detail.lineItem.qtyNotBefore,Nicht vor Menge
+tk.uiaas.orderstatus.detail.cancelReason.L3,L3
+tk.uiaas.orderstatus.detail.cancelReason.L2,L2
+tk.uiaas.orderstatus.detail.cancelReason.J9,J9
+tk.uiaas.orderstatus.detail.cancelReason.J3,J3
+tk.uiaas.orderstatus.detail.cancelReason.J2,J2
+tk.uiaas.orderentry.orderstatus.detail.lineItem.licenseInformation,Lizenz-Info.
+tk.uiaas.orderstatus.detail.cancelReason.Y6,Falsche Auftragsbuchung
+tk.uiaas.orderstatus.detail.cancelReason.Y5,Ende der Vermarktung
+tk.uiaas.orderstatus.detail.cancelReason.Y7,Doppelte Auftragsbuchung
+tk.uiaas.orderstatus.detail.cancelReason.Y2,Kundensperre für Lieferung
+tk.uiaas.orderstatus.detail.cancelReason.Y1,Sehr alte Bestellung
+tk.uiaas.orderstatus.detail.cancelReason.Y4,Referenz veraltet
+tk.uiaas.orderstatus.detail.cancelReason.Y3,Stornierung durch den Kunden
+tk.uiaas.orderstatus.detail.cancelReason.YK,Anlagenwechsel nach Back Office
+tk.uiaas.orderstatus.detail.cancelReason.YC,YC
+tk.uiaas.orderstatus.detail.incoterm.FCA,FCA - Freie Fluggesellschaft
+tk.uiaas.orderstatus.detail.acknowledgementOnStandardLeadTime,"Wir bestätigen auf der Grundlage der Standardvorlaufzeit und werden unser Bestes tun, um Sie auf der Grundlage Ihres angeforderten Lieferdatums zu liefern."
+tk.uiaas.orderstatus.detail.appSubscription,MySchneider App
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.02,Export-Luft
+tk.uiaas.orderstatus.detail.addToShoppingListsConfirmMessage4,um auf Ihre Liste zuzugreifen.
+tk.uiaas.orderstatus.detail.addToShoppingListsConfirmMessage3,Liste.
+tk.uiaas.orderstatus.detail.addToShoppingListsConfirmMessage2,Element(e) zu Ihrem
+tk.uiaas.orderstatus.detail.addToShoppingListsConfirmMessage1,Sie haben gerade hinzugefügt
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.00,Export-Kourier
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.13,Export-Schulung
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.12,Cross-Docking
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.11,Express
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.06,Lokal-Selbstsammlung
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.05,Lokal-Straße
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.04,Lokaler Gerichtshof
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.03,Export-Straße
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.09,Lokal – Luft und Straße
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.07,Luft vor Ort
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.21,Rückgabe
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.17,Außenstation – Straße
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.16,Export-Selbstabholung
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.15,Export-FCL
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.14,Export-LCL
+tk.uiaas.orderstatus.detail.incoterm.FOB,FOB – Kostenlos an Bord
+tk.uiaas.orderstatus.detail.lineitem.shippingDetails,Versanddetails
+tk.uiaas.orderStatus.details.lineItem.approvalNeeded,Genehmigung erforderlich
+tk.uiaas.orderstatus.detail.cancelReason.YZ,Beschränkung der Exportkontrolle
+tk.uiaas.orderstatus.detail.cancelReason.Z7,Projektmanagement-Fehler
+tk.uiaas.orderstatus.detail.cancelReason.Z6,Angebotsfehler
+tk.uiaas.orderstatus.detail.cancelReason.Z9,Werk-Produktfehler
+tk.uiaas.orderstatus.detail.cancelReason.Z8,Versandfehler Werk
+tk.uiaas.orderstatus.detail.cancelReason.Z3,SD: 3.Kundennachfrage
+tk.uiaas.orderstatus.detail.cancelReason.Z2,SD : 2.Typisierungsfehler
+tk.uiaas.orderstatus.detail.cancelReason.Z5,CS: 5. Angebot vom Kunden abgelehnt
+tk.uiaas.orderstatus.detail.cancelReason.Z4,CS: 4. Neue Angebotsanfrage
+tk.uiaas.orderstatus.detail.cancelReason.Z1,SD: 1.Technisches Problem
+tk.uiaas.orderstatus.detail.cancelReason.ZK,ZK
+tk.uiaas.orderstatus.detail.cancelReason.ZJ,ZJ
+tk.uiaas.orderstatus.detail.cancelReason.ZM,ZM
+tk.uiaas.orderstatus.detail.cancelReason.ZL,ZL
+tk.uiaas.orderstatus.detail.cancelReason.ZG,ZG
+tk.uiaas.orderstatus.detail.cancelReason.ZF,ZF
+tk.uiaas.orderstatus.detail.cancelReason.ZI,ZI
+tk.uiaas.orderstatus.detail.cancelReason.ZH,ZH
+tk.uiaas.orderstatus.detail.cancelReason.ZC,ZC
+tk.uiaas.orderstatus.detail.cancelReason.ZB,Grund für die Stornierung
+tk.uiaas.orderstatus.detail.cancelReason.ZE,Neuplanung des abgelehnten Kunden
+tk.uiaas.orderstatus.detail.cancelReason.ZD,ZD
+tk.uiaas.orderstatus.detail.cancelReason.ZA,Grund für die Stornierung
+tk.uiaas.orderstatus.detail.cancelReason.ZZ,Occurrence du bon de commande/Factur mu
+tk.uiaas.orderstatus.detail.cancelReason.ZY,Stornierung der MS-Abrechnung
+tk.uiaas.orderstatus.detail.cancelReason.ZX,Mehrere Rechnungs-/Bestellreferenzen
+tk.uiaas.orderstatus.detail.cancelReason.ZS,FSCM-PO stimmt nicht mit Kundenkonto überein
+tk.uiaas.orderstatus.detail.cancelReason.ZR,Kundeninsolvent
+tk.uiaas.orderstatus.detail.cancelReason.ZU,Sonstiges
+tk.uiaas.orderstatus.detail.cancelReason.ZT,FSCM-fehlende unterstützende Dokumentation
+tk.uiaas.orderstatus.detail.cancelReason.ZO,ZO
+tk.uiaas.orderstatus.detail.cancelReason.ZN,Automatische Rückstandsstornierung
+tk.uiaas.orderstatus.detail.cancelReason.ZQ,FSCM-Bestellung hat keine REQD-Meilensteine
+tk.uiaas.orderstatus.detail.cancelReason.ZP,Abgelehnt vom Genehmiger
+tk.uiaas.orderStatus.details.shipTo.zip,Versand an Zip
+tk.uiaas.orderentry.orderstatus.detail.emailSubscription,E-Mail
+tk.uiaas.orderstatus.detail.contractNumber,Vertrags-Nr.
+tk.uiaas.orderstatus.detail.additionalEmail,Zusätzliche E-Mail-Adresse
+tk.uiaas.orderstatus.detail.creditStatus,Status der Gutschrift
+tk.uiaas.orderentry.orderstatus.detail.smsSubscription,SMS
+tk.uiaas.orderstatus.detail.incoterm.CFR,Kosten und Fracht
+tk.uiaas.orderstatus.detail.incoterm.CIP,Bezahlte Beförderung und Versicherung
+tk.uiaas.orderstatus.detail.incoterm.CIF,"CIF – Kosten, Versicherung und Fracht"
+tk.uiaas.orderentry.orderstatus.detail.newList,Neue Liste
+tk.uiaas.orderstatus.detail.incoterm.CPT,CPT – Bezahlte Beförderung
+tk.uiaas.orderstatus.detail.highLevelItem,Höhere Ebene
+tk.uiaas.orderstatus.detail.notificationSubscription,Registrierung von Bestellstatusbenachrichtigungen
+tk.uiaas.orderentry.orderstatus.detail.more,&gt &nbsp Mehr
+tk.uiaas.orderstatus.detail.lineItem.licenseInformation,Lizenz-Info.
+tk.uiaas.orderStatus.details.incoterm2,Incoterm (2)
+tk.orderstatus.detail.alertSubscription,mySE-Warnungen
+tk.uiaas.orderstatus.detail.incoterm.DAT,DAT - Entrega en Terminal de llegada
+tk.uiaas.orderstatus.detail.incoterm.DAP,DAP – Lieferung vor Ort
+tk.uiaas.orderStatus.details.zipCode.prefix, --
+tk.uiaas.orderstatus.detail.incoterm.DDP,DDP - Gelieferte Zollzahlung
+tk.uiaas.orderstatus.detail.premiumDelivery,Erstklassiger Service
+tk.uiaas.orderentry.orderstatus.detail.invalidEmail,Ungültige E-Mail-Adresse
+tk.uiaas.orderStatus.details.lineItem.firstDeliveryQuantity,Erste Liefermenge
+tk.uiaas.orderStatus.details.lineItem.status,Status
+tk.orderstatus.detail.orderComments,Markierungen
+tk.orderstatus.detail.cancelReasonLabel.00,Vom System zugewiesen (intern)
+tk.orderstatus.detail.No,Nein
+tk.orderstatus.detail.poNumberLabel,Bestellnummer
+tk.orderstatus.detail.productCode,Produktcode
+tk.orderstatus.detail.itemReference,Artikel-Referenz
+tk.orderstatus.detail.deliveryUnit,Maßeinheit
+tk.orderstatus.detail.deliveryService,Lieferservice
+tk.orderstatus.detail.seOrderRefNo,Schneider Electric Bestell-Nr.
+tk.orderstatus.detail.lineItem.contractualDate,Vertragsdatum
+tk.orderstatus.detail.totalBackOrdered,Gesamtrückstand bestellt
+tk.orderstatus.detail.cancelReasonLabel.ZZ,Occurrence du bon de Commande/Factur mu
+tk.orderstatus.detail.cancelReasonLabel.ZY,Stornierung der MS-Abrechnung
+tk.orderstatus.detail.cancelReasonLabel.ZH,Falsche Info zur Auftragserfassung durch Kunden
+tk.orderstatus.detail.cancelReasonLabel.ZG,Falsche Info zur Auftragserfassung durch Schneider
+tk.orderstatus.detail.cancelReasonLabel.ZF,Preis/Rabatt vom Kunden nicht akzeptiert
+tk.orderstatus.detail.cancelReasonLabel.ZE,Kunde hat Neuplanung abgelehnt
+tk.orderstatus.detail.cancelReasonLabel.ZD,Kundenanfrage
+tk.orderstatus.detail.cancelReasonLabel.ZB,Produktverfügbarkeit
+tk.orderstatus.detail.cancelReasonLabel.ZA,ACE-Material nicht identifiziert
+tk.orderstatus.detail.cancelReasonLabel.YZ,Einschränkung der Exportkontrolle
+tk.orderstatus.detail.cancelReasonLabel.Z9,Werk-Produktfehler
+tk.orderstatus.detail.cancelReasonLabel.ZV,Inoperatives Produkt des Werks
+tk.orderstatus.detail.cancelReasonLabel.ZU,Sonstiges
+tk.orderstatus.detail.cancelReasonLabel.ZT,FSCM-fehlende unterstützende Dokumentation
+tk.orderstatus.detail.cancelReasonLabel.ZS,FSCM-PO stimmt nicht mit Kundenkonto überein
+tk.orderstatus.detail.cancelReasonLabel.ZR,Kundeninsolvent
+tk.orderstatus.detail.cancelReasonLabel.ZQ,FSCM-Bestellung hat keine REQD-Meilensteine
+tk.orderstatus.detail.cancelReasonLabel.ZP,Vom Genehmiger abgelehnt
+tk.orderstatus.detail.cancelReasonLabel.ZO,Materialausgabe zurückgeben
+tk.orderstatus.detail.cancelReasonLabel.ZN,Automatische Stornierung der Rückstandsanforderung
+tk.orderstatus.detail.cancelReasonLabel.ZM,Gesamtwert unter Minimum zurückgeben
+tk.orderstatus.detail.cancelReasonLabel.ZL,Positionswert unter Minimum zurückgeben
+tk.orderstatus.detail.cancelReasonLabel.ZK,Gibt Verpackungsproblem zurück
+tk.orderstatus.detail.cancelReasonLabel.ZJ,EDI-Materialfehler
+tk.orderstatus.detail.cancelReasonLabel.ZI,Besseres Wettbewerbsangebot
+tk.orderstatus.detail.cancelReasonLabel.Y2,Veraltete Retourenauftragszeile
+tk.orderstatus.detail.cancelReasonLabel.Y1,Vertrag storniert
+tk.orderstatus.detail.lineItem.multipleDate.scheduleQuantity,Gesamtbestellte Menge
+tk.orderstatus.detail.projectName,Projektname
+tk.orderstatus.detail.cancelReasonLabel.Z8,Versandfehler des Werks
+tk.orderstatus.detail.cancelReasonLabel.Z7,Projektmanagement-Fehler
+tk.orderstatus.detail.cancelReasonLabel.Z6,Angebotsfehler
+tk.orderstatus.detail.cancelReasonLabel.Z5,Verkaufs-Sonderfreigabe
+tk.orderstatus.detail.cancelReasonLabel.Z4,Vertriebsfehler
+tk.orderstatus.detail.cancelReasonLabel.Z3,Anlagentechnik-Fehler
+tk.orderstatus.detail.cancelReasonLabel.Z2,Carrier-Problem
+tk.orderstatus.detail.cancelReasonLabel.Z1,Bereinigung des Rückstands
+tk.orderstatus.detail.cancelReasonLabel.YK,Anlagenwechsel nach Back Office
+tk.orderstatus.detail.productCrossreferenceNumber,Kunden-Ref. Anzahl
+tk.orderstatus.detail.forwardingAgent,Name des Spediteurs
+tk.orderstatus.detail.incoterm.FH,Kostenlos an Bord
+tk.orderstatus.detail.premiumDelivery,Premium-Service
+tk.orderstatus.detail.lineItem.requestedDeliveryDate,Datum der Kundenanfrage
+tk.npsOrderStatus.detail.status.manufacturingStarted,Herstellung gestartet
+tk.orderstatus.detail.lineItem.orderLineMarking,Kommentar
+tk.orderstatus.detail.incoterm.EXW,EXW – Ex-Werke
+tk.orderstatus.detail.date,Datum
+tk.orderstatus.detail.lineNo,Zeilen-Nr.
+tk.orderstatus.detail.incoterm.FCA,FCA - Freie Fluggesellschaft
+tk.orderstatus.detail.deliveryTermDDVEN,Lieferant
+tk.orderstatus.detail.comments,Kommentare
+tk.orderstatus.detail.incoterm.FOB,FOB – Kostenlos an Bord
+tk.orderstatus.detail.incoterm.DAT,DAT - Entrega en Terminal de llegada
+tk.orderstatus.detail.incoterm.DAP,DAP – Lieferung vor Ort
+tk.orderstatus.detail.totalWeight,Gesamtgewicht
+tk.orderstatus.detail.risk,Risiko
+tk.orderstatus.detail.incoterm.DDP,DDP - Gelieferte Zollzahlung
+tk.orderstatus.detail.projectManager,Projektleiter
+tk.orderstatus.detail.lineItem.approvalNeeded,Genehmigung erforderlich
+tk.orderstatus.detail.deliveryTermDDSEE,Schneider
+tk.orderstatus.detail.incoterm.CFR,Kosten und Fracht
+tk.orderstatus.detail.lineItem.plannedDeliverydate,Geplantes Lieferdatum
+tk.orderstatus.detail.incoterm.CIP,Bezahlte Beförderung und Versicherung
+tk.orderstatus.detail.projectId,Projekt-ID
+tk.orderstatus.detail.incoterm.CIF,"CIF – Kosten, Versicherung und Fracht"
+tk.orderstatus.detail.incoterm.CPT,CPT - Beförderung bezahlt
+tk.orderstatus.detail.designation,Bezeichnung
+tk.orderstatus.detail.stagingOrder,Reihenfolge der Bereitstellung
+tk.orderstatus.detail.casename,Name des Falls
+tk.orderstatus.detail.shippingCondition.selectOne,Wählen Sie eine Antwort aus
+tk.orderstatus.detail.contractNumber,Vertrags-Nr.
+tk.orderstatus.detail.spaCode,SPA-Code
+tk.orderstatus.detail.etaDate,ETA-Datum
+tk.orderstatus.detail.deliveryNoteNumber,Lieferscheine
+tk.orderstatus.detail.deliveryTermSEE,Schneider
+tk.orderstatus.detail.deliveryService.Z5,Express importieren
+tk.orderstatus.detail.deliveryService.ZG,Vier (4) Std. Lieferung
+tk.orderstatus.detail.releaseDate,Freigabedatum
+tk.orderstatus.detail.deliveryTermVEN,Lieferant
+tk.orderstatus.detail.dateType,Datumstyp
+tk.orderstatus.detail.requestedDeliveryDate,Vom Kunden angefordertes Datum
+tk.orderstatus.detail.totalQtyShipped,Gesamte versandte Menge
+tk.orderstatus.detail.deliveryService.21,Rückgabe
+tk.orderstatus.detail.status,Status
+tk.orderstatus.detail.invalidEmail,Ungültige E-Mail-Adresse
+tk.orderstatus.detail.totalQtyCancelled,Summe storniert
+tk.orderstatus.detail.programmedOrder,Programmierte Bestellung
+tk.orderstatus.detail.booked.true,Richtig
+tk.orderstatus.detail.deliveryService.12,Cross-Docking
+tk.orderstatus.detail.deliveryService.11,Express
+tk.orderstatus.detail.deliveryService.16,Export-Selbstabholung
+tk.orderstatus.detail.deliveryService.15,Export-FCL
+tk.orderstatus.detail.deliveryService.14,Export-LCL
+tk.orderstatus.detail.deliveryService.13,Export-Schulung
+tk.orderstatus.detail.deliveryService.17,Außenstation – Straße
+tk.orderstatus.detail.deliveryService.01,See exportieren
+tk.orderstatus.detail.deliveryService.00,Export-Kourier
+tk.orderstatus.detail.deliveryService.05,Lokal-Straße
+tk.orderstatus.detail.deliveryService.04,Lokaler Gerichtshof
+tk.orderstatus.detail.deliveryService.03,Export-Straße
+tk.orderstatus.detail.deliveryService.02,Export-Luft
+tk.orderstatus.detail.deliveryService.09,Lokal – Luft und Straße
+tk.orderstatus.detail.deliveryService.08,Lokales-Meer
+tk.orderstatus.detail.deliveryService.07,Lokale-Luft
+tk.orderstatus.detail.deliveryService.06,Lokal-Selbstsammlung
+tk.orderstatus.detail.lineItem.shippingPoint,Versandstelle
+tk.orderstatus.detail.itemDelayed,Artikel verzögert
+tk.orderstatus.detail.deliveryInstruction,Lieferanweisung
+tk.orderstatus.detail.lineItem.premiumService,Premium
+tk.orderstatus.detail.delayType,Art der Verzögerung
+tk.orderstatus.detail.shippingInstruction,Versandbedingungen
+tk.orderstatus.detail.cancelReason.A222,Änderung (Abnahme der Menge)
+tk.orderstatus.detail.catalogNumberDescription,Beschreibung
+tk.orderstatus.detail.deliveryInstructions,Lieferanweisungen
+tk.orderstatus.detail.multiInvoice,Es gibt mehr als eine Rechnung
+tk.orderstatus.detail.orderReason,Grund der Bestellung
+tk.orderstatus.detail.orderItemTrackingInfo.carrierName,Name des Beförderers
+tk.orderstatus.detail.incoterm2,Incoterm (2)
+tk.orderstatus.detail.statusAndDate,Status und Datum
+tk.orderstatus.detail.shippingCondition.03,Express
+tk.orderstatus.detail.shippingCondition.01,Standardversand
+tk.npsOrderStatus.detail.status.orderReceived,Bestellung erhalten
+tk.orderstatus.detail.poNumber,PO-Nr.
+tk.orderstatus.detail.lineItem.shippingPoint.MX14,Frontera
+tk.orderstatus.detail.lineItem.shippingPoint.MX15,Dringend
+tk.orderstatus.detail.adress,Adresse
+tk.orderstatus.detail.plant,Werk
+tk.orderstatus.detail.lineItem.shippingPoint.MX17,Abholung
+tk.orderstatus.detail.lineItem.shippingPoint.MX10,Standard
+tk.orderstatus.detail.lineItem.shippingPoint.MX11,Express
+tk.orderstatus.detail.orderType,Art der Bestellung
+tk.orderstatus.detail.rescheduledDate,Bestätigtes Del. Datum
+tk.orderstatus.detail.accountNumberVariable,Konto-Nr.
+tk.orderstatus.detail.Yes,Ja
+tk.orderstatus.detail.deliveryTermDDFOB,Kostenlos an Bord
+tk.orderstatus.detail.deliveryTermDDFCA,Kostenloser Spediteur
+tk.orderstatus.detail.lineItem.productNumber,Produkt-Nr.
+tk.orderstatus.detail.deliveryTermDDFAS,Kostenlos neben dem Schiff
+tk.orderstatus.detail.inValidMobilePhoneNumber,Das Format Ihrer Mobiltelefonnummer ist ungültig. Bitte aktualisieren Sie Ihr Profil.
+tk.orderstatus.detail.deliveryTermDDEXW,Ex-Arbeiten
+tk.orderstatus.detail.lineItem.lastPlannedDeliverydate,Letztes geplantes Lieferdatum
+tk.orderstatus.detail.warehouse,Lager
+tk.orderstatus.detail.requestedDeliveryDateForOrderBlocked,Lieferdatum für Bestellung gesperrt
+tk.orderstatus.detail.quotationNumber,Angebotsnummer
+tk.orderstatus.detail.returnable,Rückgabefähig (gemäß Richtlinie)
+tk.orderstatus.detail.cancelReason.00,00
+tk.orderstatus.detail.forwardingAgentAddress,Adresse des Spediteurs
+tk.orderstatus.detail.cancelReason.04,04
+tk.orderstatus.detail.cancelReason.09,09
+tk.orderstatus.detail.shippingCondition.ZA,ZA LUFT
+tk.orderstatus.detail.shippingCondition.ZM,ZM NACH SEA
+tk.orderstatus.detail.deliveryTermDDDDU,Gelieferte Zollgebühr unbezahlt
+tk.orderstatus.detail.deliveryTermDDDDP,Zugestellte Zollzahlung
+tk.orderstatus.detail.deliveryTermDDDES,Ab Versand geliefert
+tk.orderstatus.detail.deliveryTermDDDEQ,Ab Kai geliefert (verzollt)
+tk.orderstatus.detail.description,Beschreibung
+tk.orderstatus.detail.deliveryTermDDDAP,An Ort und Stelle geliefert
+tk.orderstatus.detail.deliveryTermDDDAF,Lieferung an der Grenze
+tk.orderstatus.detail.cancelReason.B0,CS: Gesamtstornierung durch den Kunden (NRB)
+tk.orderstatus.detail.cancelReason.A1,Internes falsches Material
+tk.orderstatus.detail.cancelReason.A0,Kundenwunsch zur Stornierung
+tk.orderstatus.detail.cancelReason.A4,Verspätete Lieferungen
+tk.orderstatus.detail.cancelReason.A3,Falsches Material vom Kunden
+tk.orderstatus.detail.cancelReason.A2,Änderung (Abnahme der Menge)
+tk.orderstatus.detail.cancelReason.CA,CA
+tk.orderstatus.detail.cancelReason.D0,CS: Teilweise Stornierung durch Kunde(RB)
+tk.orderstatus.detail.cancelReason.C0,CS: Gesamtstornierung durch Schneider(NRB)
+tk.orderstatus.detail.totalQtyOrdered,Gesamtbestellte Menge
+tk.orderstatus.detail.cancelReason.F0,CS: Teil ersetzt (Reparaturauftrag)
+tk.orderstatus.detail.cancelReason.E0,CS: Teilstornierung durchSchneider(RB)
+tk.orderstatus.detail.cancelReason.GC,GC
+tk.orderstatus.detail.cancelReason.J2,J2
+tk.orderstatus.detail.cancelReason.J9,J9
+tk.orderstatus.detail.cancelReason.J3,J3
+tk.orderstatus.detail.opportunityId,SE Opportunity ID#
+tk.orderstatus.detail.cancelReason.L3,L3
+tk.orderstatus.detail.cancelReason.L2,L2
+tk.orderstatus.detail.deliveryTermDDCPT,Beförderung bezahlt an
+tk.orderstatus.detail.deliveryTermDDCIF,"Kosten, Versicherung und Fracht"
+tk.orderstatus.detail.deliveryTermDDCIP,Beförderung und Versicherung bezahlt an
+tk.orderstatus.detail.lineItem.totalQuantityReserved,Reservierte Menge
+tk.orderstatus.detail.cancelReason.R3,R3
+tk.orderstatus.detail.deliveryTermDDCFR,Kosten und Fracht
+tk.orderstatus.detail.lineItem.qtyNotBefore,Nicht vor Menge
+tk.orderstatus.detail.salesOrg,Vertriebsorganisationen
+tk.orderstatus.detail.cancelReason.Y1,Sehr alte Bestellung
+tk.orderstatus.detail.shippingCondition.ED,ED – Direktversand
+tk.orderstatus.detail.cancelReason.Z9,Werk-Produktfehler
+tk.orderstatus.detail.cancelReason.Z8,Versandfehler Werk
+tk.orderstatus.detail.cancelReason.Z7,Projektmanagement-Fehler
+tk.orderstatus.detail.cancelReason.Z6,Angebotsfehler
+tk.orderstatus.detail.cancelReason.Z5,CS: 5. Angebot vom Kunden abgelehnt
+tk.orderstatus.detail.cancelReason.Z4,CS: 4. Neue Angebotsanfrage
+tk.orderstatus.detail.cancelReason.Z3,SD: 3.Kundennachfrage
+tk.orderstatus.detail.cancelReason.ZB,Grund für die Stornierung
+tk.orderstatus.detail.cancelReason.ZA,Grund für die Stornierung
+tk.orderstatus.detail.cancelReason.YZ,Beschränkung der Exportkontrolle
+tk.orderstatus.detail.cancelReason.ZJ,ZJ
+tk.orderstatus.detail.cancelReason.ZI,ZI
+tk.orderstatus.detail.cancelReason.ZH,ZH
+tk.orderstatus.detail.cancelReason.ZG,ZG
+tk.orderstatus.detail.cancelReason.ZF,ZF
+tk.orderstatus.detail.cancelReason.ZE,Neuplanung des abgelehnten Kunden
+tk.orderstatus.detail.cancelReason.ZD,ZD
+tk.orderstatus.detail.cancelReason.ZC,ZC
+tk.orderstatus.detail.cancelReason.ZR,Kundeninsolvent
+tk.orderstatus.detail.cancelReason.ZQ,FSCM-Bestellung hat keine REQD-Meilensteine
+tk.orderstatus.detail.cancelReason.ZP,Abgelehnt vom Genehmiger
+tk.orderstatus.detail.cancelReason.ZO,ZO
+tk.orderstatus.detail.cancelReason.ZN,Automatische Rückstandsstornierung
+tk.orderstatus.detail.cancelReason.ZM,ZM
+tk.orderstatus.detail.cancelReason.ZL,ZL
+tk.orderstatus.detail.cancelReason.ZK,ZK
+tk.orderstatus.detail.cancelReason.Y7,Doppelte Auftragsbuchung
+tk.orderstatus.detail.cancelReason.Y6,Falsche Auftragsbuchung
+tk.orderstatus.detail.cancelReason.Y5,Ende der Vermarktung
+tk.orderstatus.detail.cancelReason.Y4,Referenz veraltet
+tk.orderstatus.detail.cancelReason.Y3,Stornierung durch den Kunden
+tk.orderstatus.detail.cancelReason.YC,YC
+tk.orderstatus.detail.cancelReason.Z2,SD : 2.Typisierungsfehler
+tk.orderstatus.detail.cancelReason.Z1,SD: 1.Technisches Problem
+tk.orderstatus.detail.cancelReason.YK,Anlagenwechsel nach Back Office
+tk.orderstatus.detail.cancelReason.ZZ,Occurrence du bon de commande/Factur mu
+tk.orderstatus.detail.cancelReason.ZY,Stornierung der MS-Abrechnung
+tk.orderstatus.detail.creditStatus,Status der Gutschrift
+tk.orderstatus.detail.cancelReason.ZX,Mehrere Rechnungs-/Bestellreferenzen
+tk.orderstatus.detail.cancelReason.ZV,Inoperatives Werkprodukt
+tk.orderstatus.detail.cancelReason.ZU,Sonstiges
+tk.orderstatus.detail.cancelReason.ZT,FSCM-fehlende unterstützende Dokumentation
+tk.orderstatus.detail.cancelReason.ZS,FSCM-PO stimmt nicht mit Kundenkonto überein
+tk.orderstatus.detail.shippingCondition.OA,OA - Luft (S.I.)
+tk.orderstatus.detail.booked.false,Falsch
+tk.orderstatus.detail.partNo,Teile-Nr.
+tk.orderstatus.detail.shippingCondition.OE,OE - Express (S.I.)
+tk.orderstatus.detail.shippingCondition.OR,Straße (S.I.)
+tk.orderstatus.detail.shippingCondition.OM,OM - See (S.I.)
+tk.orderstatus.detail.totalVolume,Gesamtvolumen
+tk.orderstatus.detail.deliveryTermFH,Kostenloses Haus
+tk.orderstatus.detail.incoterm,Incoterm
+tk.orderstatus.detail.deliveryNote,Frachtbrief-Nummer
+tk.orderstatus.detail.deliveryTermUN,Nicht kostenlos
+tk.orderstatus.detail.lineItem.seContractNumber,SE-Vertragsnummer
+tk.npsOrderStatus.detail.status.orderDispatched,Bestellung versandt
+tk.orderstatus.detail.deliveryTermDDFH,Kostenloses Haus
+tk.orderstatus.detail.orderItemTrackingInfo.trackingNumber,Tracking-Nummer
+tk.orderstatus.detail.deliveryNumber,Packliste
+tk.orderstatus.detail.deliveryTermCPT,Beförderung bezahlt an
+tk.orderstatus.detail.deliveryTermCFR,Kosten und Fracht
+tk.orderstatus.detail.deliveryTermCIF,"Kosten, Versicherung und Fracht"
+tk.orderstatus.detail.deliveryTermCIP,Beförderung und Versicherung bezahlt an
+tk.orderstatus.detail.customerPilotCode,Pilot-Code
+tk.orderstatus.detail.lineItem.firstDate,Erstes Datum
+tk.orderstatus.detail.orderItemTrackingInfo,Tracking-Informationen
+tk.npsOrderStatus.detail.status.orderAcknowledgement,Auftragsbestätigung
+tk.orderstatus.detail.stage,Phasen
+tk.orderstatus.detail.expressDelivery,Express-Service
+tk.orderstatus.detail.downPaymentRequired,Anzahlung erforderlich
+tk.orderstatus.detail.orderItemTrackingInfo.trackingUrl,Nachverfolgung URL
+tk.orderstatus.detail.trackingNumber,Tracking-/Frachtbriefnummer
+tk.orderstatus.detail.deliveryTermEXW,Ex-Arbeiten
+tk.orderstatus.detail.cancelReason.A2 ,Modifikation (Mengenabnahme)
+tk.orderstatus.detail.cancelReason.A3 ,Falsches Material vom Kunden
+tk.orderstatus.detail.cancelReason.A0 ,Kundenwunsch zur Stornierung
+tk.orderstatus.detail.cancelReason.A1 ,Internes falsches Material
+tk.orderstatus.detail.deliveryNoteLink,Lieferschein
+tk.orderstatus.detail.lineItem.shippingPoint.USZF,Exportieren 
+tk.orderstatus.detail.lineItem.shippingPoint.USZE,Rückgaben 
+tk.orderstatus.detail.lineItem.shippingPoint.USZD,Dringend 
+tk.orderstatus.detail.lineItem.shippingPoint.USZC,Standard 
+tk.orderstatus.detail.cancelReason.A4 ,Verspätete Lieferungen
+tk.orderstatus.detail.invoiceNumber,Rechnungsnummer
+tk.orderstatus.detail.deliveryTermDDP,Zugestellte Zollgebühren bezahlt
+tk.orderstatus.detail.deliveryTermDDU,Zugestellte Zollgebühr unbezahlt
+tk.orderstatus.detail.deliveryTermDEQ,Ab Kai geliefert (gebührenpflichtig)
+tk.orderstatus.detail.deliveryTermDES,Ab Versand geliefert
+tk.orderstatus.detail.deliveryTermDAF,Lieferung an der Grenze
+tk.orderstatus.detail.deliveryTermDAP,An Ort und Stelle geliefert
+tk.orderstatus.detail.booked,Gebucht
+tk.orderstatus.detail.paymentTerms,Zahlungsbedingungen
+tk.orderstatus.detail.lineItem.committedDate,Ursprüngliches Versprochenes Datum
+tk.orderstatus.detail.deliveryTermDDUN,Nicht kostenlos
+tk.orderstatus.detail.testReport,Testbericht
+tk.orderstatus.detail.specificOrderReference,Spezifische Bestellreferenz
+tk.orderstatus.detail.completeDelivery,Vollständige Lieferung
+tk.orderstatus.detail.noMobilePhoneNumber,"Bitte aktualisieren Sie Ihr Profil, um Ihre Mobilfunknummer anzugeben"
+tk.orderstatus.detail.criticalItem,Kritisch
+tk.orderstatus.detail.poLine,PO-Zeile
+tk.orderstatus.detail.deliveryTerm,Lieferbedingungen
+tk.orderstatus.detail.currency,Währung
+tk.orderstatus.detail.deliveryTermFAS,Kostenlos auf dem Schiff
+tk.orderstatus.detail.deliveryTermFCA,Kostenloser Spediteur
+tk.orderstatus.detail.deliveryTermFOB,Kostenlos an Bord
+tk.orderstatus.detail.dateType.A,Ankunft
+tk.orderstatus.detail.dateType.S,Versand
+tk.uiaas.orderstatus.detail.lineItem.orderItemTrackingInfo,Tracking-Informationen
+tk.uiaas.orderstatus.detail.actulaDeliveryDate,Est. Lieferdatum
+tk.uiaas.orderstatus.detail.estimatedShipDate,Est. Versanddatum
+tk.uiaas.orderstatus.detail.actualShipDate,Tatsächliches Versanddatum
+tk.uiaas.orderstatus.detail.lineItem.requestedDeliveryDate,Lieferdatum
+tk.uiaas.orderentry.orderstatus.detail.appSubscription,mySchneider App
+tk.uiaas.orderstatus.detail.cancelReasonLabel.Z7,Projektmanagement-Fehler
+tk.uiaas.orderstatus.detail.cancelReasonLabel.ZY,Stornierung der MS-Abrechnung
+tk.uiaas.orderStatus.details.seOrderRefNo,Schneider Electric Bestellnummer
+tk.uiaas.orderentry.orderstatus.detail.cancelReorder,Nachbestellung abbrechen
+tk.uiaas.orderStatus.details.lineItem.productCrossreferenceNumber,Kunden-Ref. Anzahl
+tk.uiaas.orderentry.orderstatus.detail.cancelReason.ZG,ZG
+tk.uiaas.orderentry.orderstatus.detail.deliveryTermDDP,Zugestellter Zoll bezahlt
+tk.uiaas.orderentry.orderstatus.detail.orderCreatedBy,Auftrag erstellt von
+tk.uiaas.orderstatus.detail.dispatchCenter.prefix.AU12,Adelade DC
+tk.uiaas.orderentry.orderstatus.detail.expediteMessageNote,"Ihr Antrag auf Beschleunigung bedeutet, dass Sie sich verpflichten, Gebühren und alle Beschleunigungsgebühren zu zahlen, die mit der Änderung der Routenführung zu einem Premium-Service verbunden sind, um dies zu beschleunigen. Expedite sollte nur verwendet werden, um Artikel bei Aufträgen ohne Projekttyp zu beschleunigen. Um einen Express-Service für einen Artikel in einem Projekt oder einer Bestellung mit Sonderpreis anzufordern, wenden Sie sich bitte an CIC."
+tk.uiaas.orderstatus.detail.lineItem.firstDate,Erstes Datum
+tk.uiaas.orderstatus.detail.downPayment,Anzahlung erforderlich
+tk.uiaas.orderstatus.detail.appDownload,>App herunterladen
+tk.uiaas.orderstatus.detail.reOrderHeaderMessage,Nachbestellung
+tk.uiaas.orderentry.orderstatus.detail.incoterm.DDP,DDP - Gelieferte Zollzahlung
+tk.uiaas.orderstatus.detail.mxOrderType,Art der Bestellung
+tk.uiaas.orderstatus.detail.dispatchCenter.prefix.M001,M001
+tk.uiaas.orderStatus.details.indirectCustomerId,Indirekte Kunden-ID
+tk.uiaas.orderstatus.detail.lineItem.plannedDeliverydate,Geplantes Lieferdatum
+tk.uiaas.orderStatus.details.lineItem.date,Datum
+tk.uiaas.orderentry.orderstatus.detail.deliveryTermDDDAP,An Ort und Stelle geliefert
+tk.uiaas.orderstatus.detail.download.filenamewithoutextension,orderStatusDetail
+tk.uiaas.orderstatus.detail.cancelReorder,Nachbestellung abbrechen
+tk.uiaas.orderstatus.detail.cancelReason.E0,CS: Teilstornierung durchSchneider(RB)
+tk.uiaas.orderstatus.detail.cancelReason.R3,R3
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.01,Export-See
+tk.uiaas.orderentry.orderstatus.detail.deliveryService.08,Lokales-Meer
+tk.uiaas.orderstatus.detail.cancelReason.ZV,Inoperatives Produkt des Werks
+tk.orderstatus.detail.cancelReasonLabel.ZX,Mehrere Rechnungs-/Bestellungsreferenzen
+tk.orderstatus.detail.lineItem.shippingPoint.MX16,Versand abgeben
+tk.orderstatus.detail.shippingCondition.HX,HX - EXPORT
+tk.orderstatus.detail.cancelReason.Y2,Kundensperre für Lieferung
+tk.uiaas.orderstatus.detail.status,Status
+tk.uiaas.orderstatus.detail.saveAlternativeEmail,Speichern
+tk.uiaas.orderstatus.detail.partNo,Teile-Nr.
+tk.uiaas.orderstatus.detail.date,Datum
+tk.orderstatus.detail.shippingCondition,Versandbedingung
+tk.orderstatus.detail.account,Konto
+tk.uiaas.orderstatus.details.notification.subscription,Registrierung von Benachrichtigungen
+tk.orderstatus.detail.highLevelItem,Höhere Ebene
+tk.orderstatus.detail.actualShipDate,Tatsächliches Versanddatum
+tk.orderstatus.detail.estimatedShipDate,Geschätztes Versanddatum
+tk.orderstatus.detail.cpqQuotationNumbers,CPQ-Angebotsnummer
+tk.orderstatus.detail.actulaDeliveryDate,Tatsächliches Lieferdatum
+tk.orderstatus.detail.invoiceDate,Rechnungsdatum
+tk.orderstatus.detail.commodityCode,Benutzerdefinierter Code
+tk.orderstatus.detail.scheduleQuantity,Menge planen
+tk.uiaas.orderstatus.detail.ZF,Preis/Rabatt vom Kunden nicht akzeptiert
+tk.uiaas.orderstatus.detail.ZH,Falsche Informationen zur Auftragserfassung durch den Kunden
+tk.uiaas.orderstatus.detail.ZB,Produktverfügbarkeit nicht geeignet
+tk.uiaas.orderstatus.detail.ZC,Produkt / Lösung nicht geeignet
+tk.uiaas.orderstatus.detail.ZE,Kunde hat Neuplanung abgelehnt
+tk.uiaas.orderstatus.detail.ZD,Kundenanfrage
+tk.uiaas.orderstatus.detail.ZO,EDI-Materialfehler
+tk.uiaas.orderstatus.detail.ZP,Mindestbestellwert nicht erfüllt
+tk.uiaas.orderstatus.detail.ZQ,Kunde hat DC-Zuschlag abgelehnt
+tk.uiaas.orderstatus.detail.ZR,Servicekorrektur DP80 / DP90
+tk.uiaas.orderstatus.detail.ZS,Kunde hat Frachtzuschlag abgelehnt
+tk.uiaas.orderstatus.detail.ZT,Sonstige logistische Gründe
+tk.uiaas.orderstatus.detail.ZU,Kaufmännische Entscheidung
+tk.uiaas.orderstatus.detail.ZV,EDI-Portal-Link-Fehler
+tk.uiaas.orderstatus.detail.ZW,Vertrag mit Abrechnung erstellt
+tk.uiaas.orderstatus.detail.ZX,Kosten an DP91 zurückgeben
+tk.uiaas.orderstatus.detail.ZY,RMA abgelaufen/geschlossen von Schneider
+tk.uiaas.orderstatus.detail.ZZ,S4 PHLD CHLD
+tk.uiaas.orderstatus.detail.00,Vom System zugewiesen (intern)
+tk.uiaas.orderstatus.detail.CB,Kredit abgelehnt – Kunde in Rechtsstreitigkeiten
+tk.uiaas.orderstatus.detail.CR,Kredit abgelehnt – Kunde in Verzug
+tk.uiaas.orderstatus.detail.PI,PID-Vertrag
+tk.uiaas.orderstatus.detail.YA,Referenzdokument nicht bereitgestellt
+tk.uiaas.orderstatus.detail.YB,Produkt nicht aktuelle Version
+tk.uiaas.orderstatus.detail.YC,Das Produkt ist nicht retournierbar
+tk.uiaas.orderstatus.detail.YD,Minimaler Rückgabewert nicht erfüllt
+tk.uiaas.orderstatus.detail.YE,Referenzdokument überschreitet den vereinbarten Zeitraum
+tk.uiaas.orderstatus.detail.YF,Zurückgesendetes Produkt entspricht nicht der Richtlinie
+tk.uiaas.orderstatus.detail.YG,Die angeforderte Menge übersteigt die Menge in Ref. doc.
+tk.uiaas.orderstatus.detail.YH,Keine fehlerhafte Meldung oder/und Fehlerbeschreibung
+tk.uiaas.orderstatus.detail.YI,Produkt ist außerhalb der Garantie
+tk.uiaas.orderstatus.detail.YJ,Chance verloren
+tk.uiaas.orderstatus.detail.YK,Anlagenänderung nach Back Office
+tk.uiaas.orderstatus.detail.YR,Ord. Reduzierung der Menge
+tk.uiaas.orderstatus.detail.YY,Lokalisieren. Änderung. MS Bill. Canc.
+tk.uiaas.orderstatus.detail.YZ,Beschränkung der Exportkontrolle
+tk.uiaas.orderstatus.detail.ZG,Falsche Info zur Auftragserfassung durch Schneider
+tk.uiaas.orderstatus.detail.ZA,Angebot/Vertrag/Kampagne geschlossen/nicht gültig
+tk.uiaas.orderstatus.detail.ZI,Besseres wettbewerbsfähiges Angebot
+tk.uiaas.orderstatus.detail.ZJ,Materialproblem
+tk.uiaas.orderstatus.detail.ZK,Problem beim Verpacken
+tk.uiaas.orderstatus.detail.ZL,Qualität@@@@
+tk.uiaas.orderstatus.detail.ZM,Garantie@@@@@
+tk.uiaas.orderstatus.detail.ZN,Automatische Stornierung der Rückstandsanforderung!!!!
