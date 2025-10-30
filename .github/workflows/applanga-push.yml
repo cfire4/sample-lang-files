@@ -12,46 +12,10 @@ on:
         description: Push translation files. If set translation files will be pushed instead of source files
         default: false
         required: false
-      branch_id:
-        description: Branch ID
-        required: false
-        type: string
 jobs:
   push-sources-for-translation:
     runs-on: ubuntu-latest
     steps:
-      - name: Prepare Applanga API Configuration
-        id: api_config
-        env:
-          ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
-          BRANCH_ID_INPUT: '${{ github.event.inputs.branch_id }}'
-          APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
-        run: |-
-          # Set API host from secret or use fallback, then remove any trailing slash
-          RAW_HOST="${APPLANGA_API_HOST:-https://api.applanga.com}"
-          CLEANED_HOST="${RAW_HOST%/}"
-
-          # Extract mobile app ID from access token
-          MOBILE_APP_ID=$(echo "$ACCESS_TOKEN" | cut -d'!' -f1)
-
-          # Prepare branch ID parameter string if an ID is provided
-          BRANCH_PARAM=""
-          if [ -n "$BRANCH_ID_INPUT" ]; then
-          BRANCH_PARAM="&branch=$BRANCH_ID_INPUT"
-          fi
-
-          # Set all values as outputs for upcoming steps
-          echo "mobile_app_id=${MOBILE_APP_ID}" >> $GITHUB_OUTPUT
-          echo "branch_param=${BRANCH_PARAM}" >> $GITHUB_OUTPUT
-          echo "api_host=${CLEANED_HOST}" >> $GITHUB_OUTPUT
-      - name: Notify workflow started
-        run: |-
-          curl -X POST "${{ steps.api_config.outputs.api_host }}/v1/api/workflow-start?app=${{ steps.api_config.outputs.mobile_app_id }}${{ steps.api_config.outputs.branch_param }}" \
-            -H "Content-Type: application/json" \
-            -H "Authorization: Bearer ${{ secrets.APPLANGA_ACCESS_TOKEN }}" \
-            -d '{
-            "workflowType": "push"
-            }' || echo "Failed to notify workflow start, continuing anyway"
       - uses: actions/checkout@v3
         with:
           path: checkout
@@ -61,8 +25,8 @@ jobs:
       - name: Push Sources to Applanga
         if: '${{ inputs.push_targets != true }}'
         env:
-          APPLANGA_ACCESS_TOKEN: '${{ secrets.APPLANGA_ACCESS_TOKEN }}'
-          APPLANGA_API_HOST: '${{ steps.api_config.outputs.api_host }}'
+          APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
+          APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
         run: applanga push --force
         working-directory: checkout
       - name: Push Translation Files to Applanga
@@ -71,23 +35,3 @@ jobs:
           APPLANGA_ACCESS_TOKEN: '${{ secrets.APPLANGA_ACCESS_TOKEN }}'
         run: applanga pushtarget --force
         working-directory: checkout
-      - name: Notify workflow success
-        if: success()
-        run: |-
-          curl -X POST "${{ steps.api_config.outputs.api_host }}/v1/api/workflow-complete?app=${{ steps.api_config.outputs.mobile_app_id }}${{ steps.api_config.outputs.branch_param }}" \
-            -H "Content-Type: application/json" \
-            -H "Authorization: Bearer ${{ secrets.APPLANGA_ACCESS_TOKEN }}" \
-            -d '{
-            "workflowType": "push",
-              "status": "success"
-            }' || echo "Failed to notify workflow success"
-      - name: Notify workflow failure
-        if: failure()
-        run: |-
-          curl -X POST "${{ steps.api_config.outputs.api_host }}/v1/api/workflow-complete?app=${{ steps.api_config.outputs.mobile_app_id }}${{ steps.api_config.outputs.branch_param }}" \
-            -H "Content-Type: application/json" \
-            -H "Authorization: Bearer ${{ secrets.APPLANGA_ACCESS_TOKEN }}" \
-            -d '{
-            "workflowType": "push",
-              "status": "failed"
-            }' || echo "Failed to notify workflow failure"
