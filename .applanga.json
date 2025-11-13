@@ -4,6 +4,12 @@
     "push": {
       "source": [
         {
+          "path": "./i18next_json/da.json",
+          "file_format": "react_simple_json",
+          "tag": "app:language:1000.json",
+          "language": "en"
+        },
+        {
           "path": "./csv/data.csv",
           "file_format": "csv",
           "tag": "app:language.csv",
@@ -13,11 +19,31 @@
           },
           "excludeHeaderRow": true,
           "language": "en"
+        },
+        {
+          "path": "./angular_translate_json/en.json",
+          "file_format": "angular_translate_json",
+          "tag": "app:language.json",
+          "language": "en"
+        },
+        {
+          "path": "./i18next_json/en.json",
+          "file_format": "chrome_i18n_json",
+          "tag": "app:messages:2000.json",
+          "language": "en"
         }
       ]
     },
     "pull": {
       "target": [
+        {
+          "path": "./i18next_json/<language>.json",
+          "file_format": "react_simple_json",
+          "tag": "app:language:1000.json",
+          "exclude_languages": [
+            "en"
+          ]
+        },
         {
           "path": "./csv/<language>.csv",
           "file_format": "csv",
@@ -28,6 +54,22 @@
             "KEY": 0,
             "<language>": 1
           },
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./angular_translate_json/<language>.json",
+          "file_format": "angular_translate_json",
+          "tag": "app:language.json",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./i18next_json/<language>.json",
+          "file_format": "chrome_i18n_json",
+          "tag": "app:messages:2000.json",
           "exclude_languages": [
             "en"
           ]
