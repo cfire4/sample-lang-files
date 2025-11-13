@@ -28,7 +28,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: ${{ github.event.inputs.target_branch || github.ref_name }}
+          ref: ${{ github.ref_name }}
           path: checkout
       - uses: applanga/setup-applanga-cli@v1.0.3
         with:
@@ -37,7 +37,7 @@ jobs:
         env:
           APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
           APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
-        run: 'applanga pull ${{ github.event.inputs.tags }}'
+        run: 'applanga --debug pull ${{ github.event.inputs.tags }}'
         working-directory: checkout
       - name: Create Pull Request
         uses: applanga/pe-create-pull-request@main
