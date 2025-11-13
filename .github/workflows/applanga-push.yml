@@ -4,7 +4,10 @@ on:
     branches:
       - main
     paths:
+      - i18next_json/da.json
       - csv/data.csv
+      - angular_translate_json/en.json
+      - i18next_json/en.json
   workflow_dispatch:
     inputs:
       push_targets:
@@ -27,11 +30,11 @@ jobs:
         env:
           APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
           APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
-        run: applanga push --force
+        run: applanga --debug push --force
         working-directory: checkout
       - name: Push Translation Files to Applanga
         if: '${{ inputs.push_targets == true }}'
         env:
           APPLANGA_ACCESS_TOKEN: '${{ secrets.APPLANGA_ACCESS_TOKEN }}'
-        run: applanga pushtarget --force
+        run: applanga --debug pushtarget --force
         working-directory: checkout
