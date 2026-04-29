@@ -4,10 +4,7 @@ on:
     branches:
       - main
     paths:
-      - i18next_json/da.json
-      - csv/data.csv
-      - angular_translate_json/en.json
-      - i18next_json/en.json
+      - android_xml/strings.xml
   workflow_dispatch:
     inputs:
       push_targets:
@@ -18,11 +15,13 @@ on:
 jobs:
   push-sources-for-translation:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v3
         with:
           path: checkout
-      - uses: applanga/setup-applanga-cli@v1.0.3
+      - uses: applanga/setup-applanga-cli@v1.0.4
         with:
           version: 1.0.*
       - name: Push Sources to Applanga
@@ -30,11 +29,11 @@ jobs:
         env:
           APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
           APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
-        run: applanga --debug push --force
+        run: applanga --debug push --force --fail-on-error
         working-directory: checkout
       - name: Push Translation Files to Applanga
         if: '${{ inputs.push_targets == true }}'
         env:
           APPLANGA_ACCESS_TOKEN: '${{ secrets.APPLANGA_ACCESS_TOKEN }}'
-        run: applanga --debug pushtarget --force
+        run: applanga --debug pushtarget --fail-on-error
         working-directory: checkout
