@@ -10,6 +10,10 @@ on:
         description: Title for the pull request
         required: false
         default: Updated translations
+      languages:
+        description: Languages whose entries will be pulled
+        required: false
+        default: ''
       commit_message:
         description: Commit message for the PR
         required: false
@@ -25,20 +29,55 @@ on:
 jobs:
   pull-translation-in:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      TARGET_BRANCH: ${{ github.event.inputs.target_branch || github.ref_name }}
+      REF_BRANCH: ${{ github.ref_name }}
+      APPLANGA_JSON_WAS_CREATED_OR_MODIFIED: 'false'
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: ${{ github.ref_name }}
+          ref: ${{ env.TARGET_BRANCH }}
           path: checkout
-      - uses: applanga/setup-applanga-cli@v1.0.3
+      - name: Override .applanga.json from ref branch (if different)
+        if: env.TARGET_BRANCH != env.REF_BRANCH
+        run: |-
+          set -euo pipefail
+          cd checkout
+          echo "Target branch: ${TARGET_BRANCH}"
+          echo "Ref branch:    ${REF_BRANCH}"
+          git fetch origin "${REF_BRANCH}:${REF_BRANCH}" --depth=1 || git fetch origin "${REF_BRANCH}" --depth=1
+          if git cat-file -e "${REF_BRANCH}:.applanga.json" 2>/dev/null; then
+            echo "Using .applanga.json from branch '${REF_BRANCH}'"
+            git show "${REF_BRANCH}:.applanga.json" > .applanga.json
+            echo "APPLANGA_JSON_WAS_CREATED_OR_MODIFIED=true" >> "$GITHUB_ENV"
+          else
+            echo "No .applanga.json found in '${REF_BRANCH}', leaving existing file (if any) unchanged."
+          fi
+      - uses: applanga/setup-applanga-cli@v1.0.4
         with:
           version: 1.0.*
       - name: Pull translations from Applanga
         env:
           APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
           APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
-        run: 'applanga --debug pull ${{ github.event.inputs.tags }}'
+        run: 'applanga --debug pull --fail-on-error ${{ github.event.inputs.tags }} ${{ github.event.inputs.languages }}'
         working-directory: checkout
+      - name: Cleanup .applanga.json override
+        if: env.APPLANGA_JSON_WAS_CREATED_OR_MODIFIED == 'true'
+        run: |-
+          set -euo pipefail
+          cd checkout
+          echo "Cleaning up overridden .applanga.json"
+          if git ls-files --error-unmatch .applanga.json >/dev/null 2>&1; then
+            echo "Restoring tracked .applanga.json from HEAD of ${TARGET_BRANCH}"
+            git checkout -- .applanga.json
+          else
+            echo ".applanga.json is untracked; removing local override."
+            rm -f .applanga.json || true
+          fi
       - name: Create Pull Request
         uses: applanga/pe-create-pull-request@main
         with:
