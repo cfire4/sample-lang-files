@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths:
-      - android_xml/strings.xml
+      - csv/de.csv
   workflow_dispatch:
     inputs:
       push_targets:
