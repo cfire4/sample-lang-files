@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths:
-      - csv/de.csv
+      - android_xml/strings.xml
   workflow_dispatch:
     inputs:
       push_targets:
@@ -25,15 +25,15 @@ jobs:
         with:
           version: 1.0.*
       - name: Push Sources to Applanga
-        if: '${{ inputs.push_targets != true }}'
+        if: ${{ inputs.push_targets != true }}
         env:
           APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
           APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
         run: applanga --debug push --force --fail-on-error
         working-directory: checkout
       - name: Push Translation Files to Applanga
-        if: '${{ inputs.push_targets == true }}'
+        if: ${{ inputs.push_targets == true }}
         env:
-          APPLANGA_ACCESS_TOKEN: '${{ secrets.APPLANGA_ACCESS_TOKEN }}'
+          APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
         run: applanga --debug pushtarget --fail-on-error
         working-directory: checkout
