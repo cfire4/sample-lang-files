@@ -1,0 +1,41 @@
+{
+  "app": {
+    "base_language": "en",
+    "push": {
+      "source": [
+        {
+          "path": "./csv/data.csv",
+          "file_format": "csv",
+          "tag": "app:language.csv",
+          "columnDescription": {
+            "KEY": 0,
+            "en": 1,
+            "DESCRIPTION": 2
+          },
+          "excludeHeaderRow": true,
+          "language": "en"
+        }
+      ]
+    },
+    "pull": {
+      "target": [
+        {
+          "path": "./csv/<language>.csv",
+          "file_format": "csv",
+          "tag": "app:language.csv",
+          "columnDescription": {
+            "KEY": 0,
+            "DESCRIPTION": 2,
+            "<language>": 1
+          },
+          "excludeHeaderRow": false,
+          "excludeBaseLang": false,
+          "sort_by_key": false,
+          "exclude_languages": [
+            "en"
+          ]
+        }
+      ]
+    }
+  }
+}
