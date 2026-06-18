@@ -1,0 +1,46 @@
+{
+  "app": {
+    "base_language": "en",
+    "push": {
+      "source": [
+        {
+          "path": "./csv/data.csv",
+          "file_format": "csv",
+          "tag": "app:language.csv",
+          "columnDescription": {
+            "KEY": 0,
+            "en": 1,
+            "METADATA_dadfasdfadf": 2
+          },
+          "excludeHeaderRow": true,
+          "keepTagIds": false,
+          "key_prefix": "kkk",
+          "autoGenerateMissingKeys": false,
+          "remove_cr_char": false,
+          "language": "en"
+        }
+      ]
+    },
+    "pull": {
+      "target": [
+        {
+          "path": "./csv/<language>.csv",
+          "file_format": "csv",
+          "tag": "app:language.csv",
+          "columnDescription": {
+            "KEY": 0,
+            "METADATA_dadfasdfadf": 2,
+            "<language>": 1
+          },
+          "key_prefix": "kkk",
+          "ignore_duplicates": false,
+          "export_empty": false,
+          "includeInvisibleId": false,
+          "exclude_languages": [
+            "en"
+          ]
+        }
+      ]
+    }
+  }
+}
